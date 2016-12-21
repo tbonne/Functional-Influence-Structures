@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+	<parameter name="randomSeed" displayName="Default Random Seed"
+		type="int" defaultValue="__NULL__" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="visual_range" displayName="PRIMATE_visual_range"
+		type="java.lang.Double" defaultValue="50.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="foodDensity" displayName="ENV_Food density"
+		type="java.lang.Double" defaultValue="0.01" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="foodBuffer" displayName="ENV_Patch size" type="java.lang.Double"
+		defaultValue="1.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="biteSize" displayName="PRIMATE_biteSize" type="java.lang.Double"
+		defaultValue="0.01" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="repulsionDistMax" displayName="AR_repulsionDistMax"
+		type="java.lang.Double" defaultValue="10.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="landscapeWidth" displayName="ENV_landscapeWidth"
+		type="int" defaultValue="500" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="landscapeHeight" displayName="ENV_landscapeHeight"
+		type="int" defaultValue="1000" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="attractionDistMax" displayName="AR_attractionDistMax"
+		type="java.lang.Double" defaultValue="10.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="foodWeight" displayName="VECT_foodWeight" type="java.lang.Double"
+		defaultValue="0.5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="bearingWeight" displayName="VECT_bearingWeight"
+		type="java.lang.Double" defaultValue="1.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="repulsionWeight" displayName="VECT_repulsionWeight"
+		type="java.lang.Double" defaultValue="2.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="attractionWeight" displayName="VECT_attractionWeight"
+		type="java.lang.Double" defaultValue="2.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="numbOfGroups" displayName="ENV_numbOfGroups"
+		type="int" defaultValue="1" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="groupSize" displayName="ENV_groupSize"
+		type="int" defaultValue="5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+</parameters>
+
+
