@@ -24,10 +24,9 @@ public class Baboon extends Primate{
 	 * *************************/
 
 	//initialize a primate agent
-	public Baboon(int ID, Coordinate c, int groupSize, boolean isMale, int group){
+	public Baboon(int ID, Coordinate c, int groupSize, boolean isMale){
 		this.id = ID;
 		this.coordinate = c;
-		this.myGroup=group;
 		if (isMale == true){
 			this.sex =1; 
 		} else {
@@ -44,6 +43,9 @@ public class Baboon extends Primate{
 		blocked=false;
 		foodTarget=null;
 		followMate=null;
+		myCount=0;
+		feedingCount=0;
+		energyIntake=0;
 
 		//vm = Parameter.vm;
 		myVector = new ArrayRealVector(2,0.1);
@@ -75,7 +77,7 @@ public class Baboon extends Primate{
 		if(followMate==null){
 			Collections.shuffle(this.primateList);
 			for(Primate pp : this.primateList){
-				if(pp.getMyGroup()==this.getMyGroup() && pp.getId()!=this.getId()){
+				if(pp.getId()!=this.getId()){
 					followMate=pp;
 					break;
 				}
@@ -83,7 +85,7 @@ public class Baboon extends Primate{
 		} else if (Math.random()<Parameter.followMateProb){
 			Collections.shuffle(this.primateList);
 			for(Primate pp : this.primateList){
-				if(pp.getMyGroup()==this.getMyGroup() && pp.getId()!=this.getId()){
+				if(pp.getId()!=this.getId()){
 					followMate=pp;
 					break;
 				}
@@ -106,6 +108,7 @@ public class Baboon extends Primate{
 		if(myPatch!=null){
 			if(myPatch.getResourceLevel()>Parameter.biteSize){
 				myPatch.eatMe(Parameter.biteSize);
+				feedingCount++;
 			} else {
 				move(myVector,true);
 			}
@@ -121,7 +124,17 @@ public class Baboon extends Primate{
 	 * *************************/
 
 	public void energyUpdate(){
-		//nothing right now: agents are assumed to be always hungry, and will eat when in a patch
+		myCount++;
+		if(myCount>Parameter.recordingFreq)estimateEnergyIntake();
+	}
+	
+	private void estimateEnergyIntake(){
+
+		energyIntake =  (double)feedingCount / (double)Parameter.recordingFreq;
+		
+		feedingCount=0;
+		myCount=0;
+		
 	}
 
 	/****************************
@@ -166,6 +179,7 @@ public class Baboon extends Primate{
 		for(Double d : weights){
 			d=d/sum;
 		}
+		
 		//calculate the avg direction (weights*dir to each patch)
 		RealVector avgFoodVector = new ArrayRealVector(2);
 		boolean foodFound = false;
@@ -188,18 +202,18 @@ public class Baboon extends Primate{
 		myVector.addToEntry(1, magnitudeAtt*Math.sin(angleToP));
 		
 		////calculate adjustment for repulsion
-		double magnitudeRep = 0;
-		for(Primate stranger:getStrangers()){
-			double distToStr = stranger.getCoord().distance(this.getCoord());
-			magnitudeRep = Math.max(0, Parameter.repulsionWeight*((1-(distToStr/Parameter.repulsionDistMax))));
-			double angleToS = MoveUtils.getAngle(this.getCoord(), stranger.getCoord(),true);
-			myVector.addToEntry(0, -magnitudeRep*Math.cos(angleToS));
-			myVector.addToEntry(1, -magnitudeRep*Math.sin(angleToS));
-		}
+//		double magnitudeRep = 0;
+//		for(Primate stranger:getStrangers()){
+//			double distToStr = stranger.getCoord().distance(this.getCoord());
+//			magnitudeRep = Math.max(0, Parameter.repulsionWeight*((1-(distToStr/Parameter.repulsionDistMax))));
+//			double angleToS = MoveUtils.getAngle(this.getCoord(), stranger.getCoord(),true);
+//			myVector.addToEntry(0, -magnitudeRep*Math.cos(angleToS));
+//			myVector.addToEntry(1, -magnitudeRep*Math.sin(angleToS));
+//		}
 		//// Choose final vector based on uncertainty around alternative influencing factors
 		double u = Math.atan2(myVector.getEntry(1), myVector.getEntry(0));
 		double length = Math.pow(Math.pow(myVector.getEntry(0),2)+Math.pow(myVector.getEntry(1), 2),0.5);
-		double maxLength = Parameter.bearingWeight + Parameter.foodWeight + magnitudeAtt + magnitudeRep;
+		double maxLength = Parameter.bearingWeight + Parameter.foodWeight + magnitudeAtt ;//+ magnitudeRep;
 		double k = Math.max(-2*Math.log(length/maxLength),0.000001);
 		 if(k<=0){
 			 System.out.println("zeero u");
@@ -229,7 +243,7 @@ public class Baboon extends Primate{
 	private ArrayList<Primate> getStrangers(){
 		ArrayList<Primate> strangers = new ArrayList<Primate>();
 		for(Baboon bab : this.primateList){
-			if(this.coordinate.distance(bab.coordinate)<Parameter.repulsionDistMax && bab.myGroup!=this.myGroup){
+			if(this.coordinate.distance(bab.coordinate)<Parameter.repulsionDistMax ){
 				strangers.add(bab);
 			}
 		}

@@ -18,13 +18,12 @@ public class Parameter {
 	public static MersenneTwister64 mt = new MersenneTwister64();	// random number generator
 	
 	//Watcher agent (for observations)
-	public final static double stepsPerDay = 60*60*8;	//1 sec interval //each step represents 1 min (1min*60*12), for a total of 12hours of active time per day  //48*4
+	public final static double stepsPerDay = 60*60*1;	//1 sec interval //each step represents 1 min (1min*60*12), for a total of 12hours of active time per day  //48*4
 	public final static double recordingFreq = 60*10;	
 	public final static int endDay = 1;		 			// will run the simulation until it has completed this many days
 	
 	//primate: population
-	public static int groupSize = 5;						//number of individuals in a group
-	public static int numbOfGroups=20;						//number of groups
+	public static int groupSize = 10;						//number of individuals in a group
 	public static int maxInitialGroupDistance = 100;         //radius of the initial group (m) (starting conditions)
 	
 	//primate: movement
@@ -40,8 +39,8 @@ public class Parameter {
 	//Food landscape
 	public static double envHomogen = 1;
 	public static double biteSize = 0.01;					//Amount of food reduced per time step
-	public static int landscapeWidth = 5000;	//500				//width and length of the landscape meters /10000
-	public static int landscapeHeight = 5000;	//1000			//width and length of the landscape meters /10000
+	public static int landscapeWidth = 1000;	//500				//width and length of the landscape meters /10000
+	public static int landscapeHeight = 1000;	//1000			//width and length of the landscape meters /10000
 	public static double regrowthRate = 0.0;				//rate at which regrowth occurs 
 	public static double cellChangeRate = 0.001;			//rate of decrease in cell familiarity over time
 	
@@ -63,9 +62,8 @@ public class Parameter {
 		foodWeight = (Double)p.getValue("foodWeight");//
 		attractionDistMax = (Double)p.getValue("attractionDistMax");//
 		repulsionDistMax = (Double)p.getValue("repulsionDistMax");//
-		landscapeWidth = (Integer)p.getValue("landscapeWidth"); //
-		landscapeHeight = (Integer)p.getValue("landscapeHeight");//
-		numbOfGroups = (Integer)p.getValue("numbOfGroups");//
+		//landscapeWidth = (Integer)p.getValue("landscapeWidth"); //
+		//landscapeHeight = (Integer)p.getValue("landscapeHeight");//
 		groupSize = (Integer)p.getValue("groupSize");//
 		foodBuffer = (Double)p.getValue("foodBuffer"); //
 		foodDensity = (Double)p.getValue("foodDensity"); //

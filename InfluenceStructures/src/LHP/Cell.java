@@ -57,8 +57,8 @@ public class Cell {
 		timeCounter=0;
 		
 		visibleSites = new ArrayList<Cell>();
-		familiarity = new ArrayList<Double>(Parameter.numbOfGroups*Parameter.groupSize);
-		for(int n =0;n<Parameter.numbOfGroups*Parameter.groupSize;n++){
+		familiarity = new ArrayList<Double>(Parameter.groupSize);
+		for(int n =0;n<Parameter.groupSize;n++){
 			familiarity.add(0.001);
 		}
 	}

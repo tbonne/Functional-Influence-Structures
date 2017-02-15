@@ -27,6 +27,7 @@ import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.random.RandomHelper;
 import repast.simphony.space.gis.Geography;
 import repast.simphony.space.gis.GeographyParameters;
+import tools.NetworkUtils;
 import tools.SimUtils;
 
 //This file builds the model: creating the environment and populating it with primates
@@ -42,7 +43,7 @@ public class ModelSetup implements ContextBuilder<Object>{
 	public static Iterable<Primate> primateIterator;
 	public static ArrayList<Cell> cellsToUpdate;
 	public static ArrayList<Cell> removeCellsToUpdate;
-	public static ArrayList<Cell> allCells;
+	public static ArrayList<Cell> allCells,pathCells;
 	public static double timeRecord;
 	public static double timeRecord_start;
 	public static GeodeticCalculator gc;
@@ -68,6 +69,7 @@ public class ModelSetup implements ContextBuilder<Object>{
 		cellsToUpdate = new ArrayList<Cell>();
 		removeCellsToUpdate = new ArrayList<Cell>();
 		allCells = new ArrayList<Cell>();
+		pathCells = new ArrayList<Cell>();
 		mainContext = context; //static link to context
 		timeRecord = System.currentTimeMillis();
 		timeRecord_start = System.currentTimeMillis();
@@ -108,7 +110,7 @@ public class ModelSetup implements ContextBuilder<Object>{
 
 
 		//add Resources to the environment (high density path)
-/*		Uniform xDist2 = RandomHelper.createUniform(xdim/2, xdim);
+		/*		Uniform xDist2 = RandomHelper.createUniform(xdim/2, xdim);
 		cern.jet.random.Normal err = RandomHelper.createNormal(0, 10);
 		for(int i=0;i<Parameter.foodDensity*xdim*ydim;i++){
 			double xSample = xDist2.nextDouble();
@@ -124,7 +126,7 @@ public class ModelSetup implements ContextBuilder<Object>{
 			sitesAdded++;
 			allCells.add(cell);
 		}
-*/
+		 */
 		//add Resources to the environment (high density path)
 		Uniform yDist2 = RandomHelper.createUniform(0, ydim);
 		cern.jet.random.Normal err = RandomHelper.createNormal(0, 10);
@@ -134,13 +136,30 @@ public class ModelSetup implements ContextBuilder<Object>{
 			while (xSample > xdim || xSample < 0){
 				//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
 				xSample = Math.pow( ySample, 0.25) ;
-				xSample = xSample / Math.pow(ydim,0.25)          ;
+				xSample = xSample / Math.pow(ydim,0.25);
 				xSample = xSample * xdim ;
 			}
 
 			Cell cell = new Cell(context,xSample+ err.nextDouble(),ySample+ err.nextDouble(),beta.nextDouble(),count++);
 			sitesAdded++;
 			allCells.add(cell);
+		}
+		
+		//add points with no error (act as line string for distance calculations)
+		for(int i=0;i<Parameter.foodDensity*xdim*ydim/4;i++){
+			double ySample = yDist2.nextDouble();
+			double xSample = xdim+1;
+			while (xSample > xdim || xSample < 0){
+				//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
+				xSample = Math.pow( ySample, 0.25) ;
+				xSample = xSample / Math.pow(ydim,0.25);
+				xSample = xSample * xdim ;
+			}
+
+			Cell cell = new Cell(context,xSample,ySample,beta.nextDouble(),count++);
+			sitesAdded++;
+			allCells.add(cell);
+			pathCells.add(cell);
 		}
 
 
@@ -203,59 +222,44 @@ public class ModelSetup implements ContextBuilder<Object>{
 		//double yoffset = 10;
 		//double xoffset = 0;
 
-		for(int i = 0 ;i<Parameter.numbOfGroups;i++ ){
 
-			//select the number of primates in this group (fixed)
-			int groupSize = Parameter.groupSize;
+		//select the number of primates in this group (fixed)
+		int groupSize = Parameter.groupSize;
 
-			boolean isMale = true;
+		boolean isMale = true;
 
-			//add individuals
-			for (int j = 0; j < groupSize; j++){
+		//add individuals
+		for (int j = 0; j < groupSize; j++){
 
-				//add individual
-				Coordinate coord=SimUtils.generateCoordAround(xCenter,yCenter);
-				//Coordinate coord= new Coordinate(xCenter+RandomHelper.nextDouble()*0.001,yCenter+RandomHelper.nextDouble()*0.001);
-				//xCenter = xCenter + xoffset;
-				//yCenter = yCenter + yoffset;
+			//add individual
+			Coordinate coord=SimUtils.generateCoordAround(xCenter,yCenter);
+			//Coordinate coord= new Coordinate(xCenter+RandomHelper.nextDouble()*0.001,yCenter+RandomHelper.nextDouble()*0.001);
+			//xCenter = xCenter + xoffset;
+			//yCenter = yCenter + yoffset;
 
-				Baboon rc = new Baboon(primatesAdded++,coord,groupSize,isMale,i);
-				isMale=false;
-				context.add(rc);
-				primatesAll.add(rc);
-				orderedP.add(rc);
-				group.add(rc);
-				Point geom = fac.createPoint(coord);
-				geog.move(rc, geom);
-				rc.myPatch = null;
-			}
+			Baboon rc = new Baboon(primatesAdded++,coord,groupSize,isMale);
+			isMale=false;
+			context.add(rc);
+			primatesAll.add(rc);
+			orderedP.add(rc);
+			group.add(rc);
+			Point geom = fac.createPoint(coord);
+			geog.move(rc, geom);
+			rc.myPatch = null;
 		}
 
 		//Add groupMates list (for simulation control)
 		for(Baboon p:primatesAll){
 			p.setPrimateList(new ArrayList(primatesAll));
 		}
-		
-		for(Primate p:orderedP){
-			//System.out.println("starting with "+p.id);
-			if(p.getId()==0)p.setBaboonFollower(0);
-			if(p.getId()==1)p.setBaboonFollower(0);
-			if(p.getId()==2)p.setBaboonFollower(0);//3
-			if(p.getId()==3)p.setBaboonFollower(0);
-			if(p.getId()==4)p.setBaboonFollower(2);
-			if(p.getId()==5)p.setBaboonFollower(2);
-			if(p.getId()==6)p.setBaboonFollower(2);
-			if(p.getId()==7)p.setBaboonFollower(1);
-			if(p.getId()==8)p.setBaboonFollower(1);//7
-			if(p.getId()==9)p.setBaboonFollower(1);
-			if(p.getId()==10)p.setBaboonFollower(3);
-			if(p.getId()==11)p.setBaboonFollower(3);
-			if(p.getId()==12)p.setBaboonFollower(3);
-			//if(p.getId()==13)p.setBaboonFollower(11);
-			
-			//p.setBaboonFollowerRand(p);
-			//p.setBaboonFollowerLeader();
-		}
+
+		//setup influence structure
+		//NetworkUtils.randomNet(orderedP);
+		NetworkUtils.leaderNet(orderedP);
+		//NetworkUtils.corePeriphery(orderedP,10);
+
+
+
 
 		for(Primate p:this.getAllPrimateAgents()){
 			System.out.println("I'm "+p.id+ " following " + p.followMate.id);

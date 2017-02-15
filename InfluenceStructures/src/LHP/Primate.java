@@ -23,9 +23,9 @@ public class Primate {
 	int id;
 	boolean blocked;
 	private RealVector facing;
-	int sex;
+	int sex,myCount,feedingCount;
+	double energyIntake;
 	Coordinate destination;
-	int myGroup;
 
 	VonMises vm;
 	RealVector myVector;
@@ -122,6 +122,9 @@ public class Primate {
 		foodTarget=c;
 	}
 	public int getMyGroup(){
-		return this.myGroup;
+		return 2;
+	}
+	public double getEnergyIntake(){
+		return energyIntake;
 	}
 }

@@ -1,0 +1,15 @@
+package tools;
+
+import java.util.ArrayList;
+
+import LHP.Primate;
+
+public final strictfp class  NetworkUtils {
+	
+	public static void randomNet(ArrayList<Primate> primates){
+		
+		
+		
+	}
+
+}

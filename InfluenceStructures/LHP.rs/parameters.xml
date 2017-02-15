@@ -39,9 +39,6 @@
 	<parameter name="attractionWeight" displayName="VECT_attractionWeight"
 		type="java.lang.Double" defaultValue="2.0" isReadOnly="false"
 		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
-	<parameter name="numbOfGroups" displayName="ENV_numbOfGroups"
-		type="int" defaultValue="1" isReadOnly="false"
-		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
 	<parameter name="groupSize" displayName="ENV_groupSize"
 		type="int" defaultValue="5" isReadOnly="false"
 		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
