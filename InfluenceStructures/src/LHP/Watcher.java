@@ -70,7 +70,7 @@ public class Watcher {
 		//creating a file to store the output of the counts
 		try {
 			//locations = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/Primate_locations"+Parameter.decisionMaking+"_"+Parameter.associationSize+".csv",false));
-			summaryStats_out = new BufferedWriter(new FileWriter("output/summary_stats_"+Parameter.groupSize+"_OMU.csv",false));
+			summaryStats_out = new BufferedWriter(new FileWriter("data/summary_stats.csv",true));
 			//individualMovements_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/movement_stats.csv",false));
 			//foodQuant_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/food_quant.csv",false));
 			//foodPos_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/food_pos.csv",false));
@@ -101,7 +101,6 @@ public class Watcher {
 		//	revisit=null;
 		//	countSteps=0;
 		//}
-
 
 		//	to do every minute
 		if(RunEnvironment.getInstance().getCurrentSchedule().getTickCount()%(Parameter.recordingFreq)==0){
@@ -165,7 +164,7 @@ public class Watcher {
 	private static double getDistanceBetweenCoordAndPath(Coordinate cc){
 
 		double minDistance = 9999;
-		for(Cell pathCell : ModelSetup.pathCells){
+		for(markerPoint pathCell : ModelSetup.pathCells){
 			double dist = pathCell.getCoord().distance(cc);
 			if(dist<minDistance)minDistance=dist;
 		}
@@ -319,8 +318,8 @@ public class Watcher {
 
 		try {
 			//setup headers
-			summaryStats_out.append("centerPathDist,indPathDist,ForagingIntake,foraginIntakeSD");
-			summaryStats_out.newLine();
+			//summaryStats_out.append("centerPathDist,indPathDist,ForagingIntake,foraginIntakeSD");
+			//summaryStats_out.newLine();
 
 			//write out data
 			summaryStats_out.append(((Double)avg_centerDistance).toString());
@@ -331,8 +330,18 @@ public class Watcher {
 			summaryStats_out.append(",");
 			summaryStats_out.append(((Double)fsd_intake).toString());
 			summaryStats_out.append(",");
-
-			summaryStats_out.newLine();
+			summaryStats_out.append(((Integer)Parameter.groupSize).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Integer)Parameter.influenceType).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Integer)Parameter.addPath).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Double)Parameter.corePer).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Double)Parameter.stepsPerDay).toString());
+			summaryStats_out.append(",");
+			
+		//summaryStats_out.newLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

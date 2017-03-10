@@ -1,5 +1,8 @@
 package LHP;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -43,7 +46,8 @@ public class ModelSetup implements ContextBuilder<Object>{
 	public static Iterable<Primate> primateIterator;
 	public static ArrayList<Cell> cellsToUpdate;
 	public static ArrayList<Cell> removeCellsToUpdate;
-	public static ArrayList<Cell> allCells,pathCells;
+	public static ArrayList<Cell> allCells;
+	public static ArrayList<markerPoint> pathCells;
 	public static double timeRecord;
 	public static double timeRecord_start;
 	public static GeodeticCalculator gc;
@@ -69,10 +73,13 @@ public class ModelSetup implements ContextBuilder<Object>{
 		cellsToUpdate = new ArrayList<Cell>();
 		removeCellsToUpdate = new ArrayList<Cell>();
 		allCells = new ArrayList<Cell>();
-		pathCells = new ArrayList<Cell>();
+		pathCells = new ArrayList<markerPoint>();
 		mainContext = context; //static link to context
 		timeRecord = System.currentTimeMillis();
 		timeRecord_start = System.currentTimeMillis();
+		
+		//get parameters from csv file
+		resetP();
 
 		/****************************
 		 * 							*
@@ -127,8 +134,12 @@ public class ModelSetup implements ContextBuilder<Object>{
 			allCells.add(cell);
 		}
 		 */
+		
+		
 		//add Resources to the environment (high density path)
 		Uniform yDist2 = RandomHelper.createUniform(0, ydim);
+		
+		if(Parameter.addPath == 1){
 		cern.jet.random.Normal err = RandomHelper.createNormal(0, 10);
 		for(int i=0;i<Parameter.foodDensity*xdim*ydim/4;i++){
 			double ySample = yDist2.nextDouble();
@@ -144,8 +155,8 @@ public class ModelSetup implements ContextBuilder<Object>{
 			sitesAdded++;
 			allCells.add(cell);
 		}
-		
-		//add points with no error (act as line string for distance calculations)
+		}
+		//add marker points with no error (act as line string for distance calculations)
 		for(int i=0;i<Parameter.foodDensity*xdim*ydim/4;i++){
 			double ySample = yDist2.nextDouble();
 			double xSample = xdim+1;
@@ -156,10 +167,8 @@ public class ModelSetup implements ContextBuilder<Object>{
 				xSample = xSample * xdim ;
 			}
 
-			Cell cell = new Cell(context,xSample,ySample,beta.nextDouble(),count++);
-			sitesAdded++;
-			allCells.add(cell);
-			pathCells.add(cell);
+			markerPoint mp = new markerPoint(context,xSample,ySample);
+			pathCells.add(mp);
 		}
 
 
@@ -233,9 +242,6 @@ public class ModelSetup implements ContextBuilder<Object>{
 
 			//add individual
 			Coordinate coord=SimUtils.generateCoordAround(xCenter,yCenter);
-			//Coordinate coord= new Coordinate(xCenter+RandomHelper.nextDouble()*0.001,yCenter+RandomHelper.nextDouble()*0.001);
-			//xCenter = xCenter + xoffset;
-			//yCenter = yCenter + yoffset;
 
 			Baboon rc = new Baboon(primatesAdded++,coord,groupSize,isMale);
 			isMale=false;
@@ -254,12 +260,13 @@ public class ModelSetup implements ContextBuilder<Object>{
 		}
 
 		//setup influence structure
-		//NetworkUtils.randomNet(orderedP);
-		NetworkUtils.leaderNet(orderedP);
-		//NetworkUtils.corePeriphery(orderedP,10);
-
-
-
+		if(Parameter.influenceType==1){
+			NetworkUtils.leaderNet(orderedP);
+		} else if (Parameter.influenceType==2){
+			NetworkUtils.corePeriphery(orderedP,Parameter.corePer);
+		} else {
+			NetworkUtils.randomNet(orderedP);
+		}
 
 		for(Primate p:this.getAllPrimateAgents()){
 			System.out.println("I'm "+p.id+ " following " + p.followMate.id);
@@ -321,6 +328,36 @@ public class ModelSetup implements ContextBuilder<Object>{
 		ScheduleParameters agentStepParams = ScheduleParameters.createRepeating(1, 1, 2);
 		schedule.schedule(agentStepParams,executor,"envUpdate");
 	}
+	
+	private static void resetP(){
+
+		String csvFile = Parameter.parameters_csv;
+		String line = "";
+		String cvsSplitBy = ",";
+		String[] params_new=null;
+
+
+		try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
+
+			while ((line = br.readLine()) != null) {
+
+				// use comma as separator
+				params_new = line.split(cvsSplitBy);
+			}
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		Parameter.addPath = Integer.parseInt(params_new[0]);
+		Parameter.groupSize = Integer.parseInt(params_new[1]);
+		Parameter.influenceType = Integer.parseInt(params_new[2]);
+		Parameter.corePer = Double.parseDouble(params_new[3]);
+		Parameter.stepsPerDay = Double.parseDouble(params_new[4]);
+		
+
+	}
+	
 
 
 	//used to update only the cells which have been modified, or are growing back

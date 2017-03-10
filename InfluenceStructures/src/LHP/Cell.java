@@ -115,8 +115,7 @@ public class Cell {
 	public void stepThreaded(){
 		
 		try{
-		regrow();
-		change();
+		//regrow();
 		}catch (NullPointerException e){
 			System.out.println("problem in the regrow method");
 		}
@@ -143,19 +142,6 @@ public class Cell {
 			ModelSetup.removeCellToUpdate(this);
 		}
 	}
-	
-	private void change(){
-		
-		for(int i =0;i<familiarity.size();i++){
-			double f = familiarity.get(i);
-				if(f<0.001){
-					f=0.001;
-				} else {
-					f = Math.max( (f - Parameter.cellChangeRate * (1-f)*f),0.001);
-					familiarity.set(i, f);
-				}
-			}
-		}
 	
 	public synchronized double eatMe(double bite){
 		double biteSize =0;

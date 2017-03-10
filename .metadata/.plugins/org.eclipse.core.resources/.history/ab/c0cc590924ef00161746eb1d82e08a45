@@ -1,9 +1,0 @@
-package tools;
-
-public final strictfp class  NetworkUtils {
-	
-	public static void randomNet(ArrayList<Primate> primates){
-		
-	}
-
-}

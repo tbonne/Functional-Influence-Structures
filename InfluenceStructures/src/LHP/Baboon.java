@@ -72,28 +72,7 @@ public class Baboon extends Primate{
 			this.visualPatches = this.getVisibleFoodPatches(Parameter.visual_range);
 		}
 
-
-		//update my social partner of interest (attraction)
-		if(followMate==null){
-			Collections.shuffle(this.primateList);
-			for(Primate pp : this.primateList){
-				if(pp.getId()!=this.getId()){
-					followMate=pp;
-					break;
-				}
-			}
-		} else if (Math.random()<Parameter.followMateProb){
-			Collections.shuffle(this.primateList);
-			for(Primate pp : this.primateList){
-				if(pp.getId()!=this.getId()){
-					followMate=pp;
-					break;
-				}
-			}
-		}
-	
-	
-		//move based on attraction to food/social partners and repulsion from strangers
+		//move based on attraction to food/social partner
 		attractionRepulsionRand();
 		
 	}
