@@ -61,20 +61,22 @@ public class Baboon extends Primate{
 	public void getInputs(){
 		//update where the agent is on the landscapes
 		this.coordinate = ModelSetup.getAgentGeometry(this).getCoordinates()[0];
-		
-		//update which patch i'm in
-		this.myPatch = this.getCurrentFoodPatch();
+
+		//update which patch i'm in, and update visible patches
+		this.getEnvironmentUpdate(Parameter.visual_range);
+
+		//this.myPatch = this.getCurrentFoodPatch();
 		//i'm here (updating the code to have network structure implicit in the design of influence... i.e., adding in empirically extracted values)
 		//update which patches i can see
-		if(this.myPatch!=null){
-			this.visualPatches = this.getVisibleFoodPatches(Parameter.visual_range,myPatch.visibleSites);
-		} else {
-			this.visualPatches = this.getVisibleFoodPatches(Parameter.visual_range);
-		}
+		//if(this.myPatch!=null){
+		//	this.visualPatches = this.getVisibleFoodPatches(Parameter.visual_range,myPatch.visibleSites);
+		//} else {
+		//this.visualPatches = this.getVisibleFoodPatches(Parameter.visual_range);
+		//}
 
 		//move based on attraction to food/social partner
 		attractionRepulsionRand();
-		
+
 	}
 
 	/****************************
@@ -106,14 +108,14 @@ public class Baboon extends Primate{
 		myCount++;
 		if(myCount>Parameter.recordingFreq)estimateEnergyIntake();
 	}
-	
+
 	private void estimateEnergyIntake(){
 
 		energyIntake =  (double)feedingCount / (double)Parameter.recordingFreq;
-		
+
 		feedingCount=0;
 		myCount=0;
-		
+
 	}
 
 	/****************************
@@ -124,7 +126,7 @@ public class Baboon extends Primate{
 
 
 	private void attractionRepulsionRand(){
-		
+
 		//// calculate adjustment for previous bearing
 		myVector.unitize();
 		myVector = myVector.mapMultiply(Parameter.bearingWeight);
@@ -158,7 +160,7 @@ public class Baboon extends Primate{
 		for(Double d : weights){
 			d=d/sum;
 		}
-		
+
 		//calculate the avg direction (weights*dir to each patch)
 		RealVector avgFoodVector = new ArrayRealVector(2);
 		boolean foodFound = false;
@@ -172,32 +174,32 @@ public class Baboon extends Primate{
 			avgFoodVector = avgFoodVector.mapMultiply(Parameter.foodWeight);
 			myVector = myVector.add(avgFoodVector);
 		}
-		
+
 		////calculate adjustment for attraction
 		double distToPartner = followMate.getCoord().distance(this.getCoord());
 		double magnitudeAtt = Math.max(Parameter.attractionWeight*(1-(Parameter.attractionDistMax/distToPartner)),0);
 		double angleToP = MoveUtils.getAngle(this.getCoord(), followMate.getCoord(),true);
 		myVector.addToEntry(0, magnitudeAtt*Math.cos(angleToP));
 		myVector.addToEntry(1, magnitudeAtt*Math.sin(angleToP));
-		
+
 		////calculate adjustment for repulsion
-//		double magnitudeRep = 0;
-//		for(Primate stranger:getStrangers()){
-//			double distToStr = stranger.getCoord().distance(this.getCoord());
-//			magnitudeRep = Math.max(0, Parameter.repulsionWeight*((1-(distToStr/Parameter.repulsionDistMax))));
-//			double angleToS = MoveUtils.getAngle(this.getCoord(), stranger.getCoord(),true);
-//			myVector.addToEntry(0, -magnitudeRep*Math.cos(angleToS));
-//			myVector.addToEntry(1, -magnitudeRep*Math.sin(angleToS));
-//		}
+		//		double magnitudeRep = 0;
+		//		for(Primate stranger:getStrangers()){
+		//			double distToStr = stranger.getCoord().distance(this.getCoord());
+		//			magnitudeRep = Math.max(0, Parameter.repulsionWeight*((1-(distToStr/Parameter.repulsionDistMax))));
+		//			double angleToS = MoveUtils.getAngle(this.getCoord(), stranger.getCoord(),true);
+		//			myVector.addToEntry(0, -magnitudeRep*Math.cos(angleToS));
+		//			myVector.addToEntry(1, -magnitudeRep*Math.sin(angleToS));
+		//		}
 		//// Choose final vector based on uncertainty around alternative influencing factors
 		double u = Math.atan2(myVector.getEntry(1), myVector.getEntry(0));
 		double length = Math.pow(Math.pow(myVector.getEntry(0),2)+Math.pow(myVector.getEntry(1), 2),0.5);
 		double maxLength = Parameter.bearingWeight + Parameter.foodWeight + magnitudeAtt ;//+ magnitudeRep;
 		double k = Math.max(-2*Math.log(length/maxLength),0.000001);
-		 if(k<=0){
-			 System.out.println("zeero u");
-			 k=0.0;
-		 }
+		if(k<=0){
+			System.out.println("zeero u");
+			k=0.0;
+		}
 		if(u==0)System.out.println("zeero u");
 		if(u!=0){
 			u = u + VonMises.staticNextDouble(1/k); 
@@ -269,6 +271,74 @@ public class Baboon extends Primate{
 		if(obj.size()<2)obj=getVisibleFoodPatches(2*Parameter.visual_range, food);
 
 		return obj;
+	}
+
+	private void getEnvironmentUpdate(double f){
+
+		Iterable<Cell> objectsInArea = null;
+		Envelope envelope = new Envelope();
+		envelope.init(this.getCoord());
+		envelope.expandBy(f);
+		objectsInArea = ModelSetup.getGeog().getObjectsWithin(envelope,Cell.class);
+		envelope.setToNull();
+
+		//get all visible patches
+		Cell myCell = null;
+		double minDist = 999999;
+		ArrayList<Cell> obj = new ArrayList<Cell>();
+		while(objectsInArea.iterator().hasNext()){
+			Cell neigh = objectsInArea.iterator().next();
+
+			//record if it is a visible site
+			if(neigh.getCoord().distance(this.getCoord())<f){
+				//boolean occupied = SimUtils.occupied(neigh.getCoord(),this.id);
+				if(neigh.getOccupied() == this.getId() || neigh.getOccupied()==-1 ){
+					obj.add(neigh);
+				}
+			}
+
+			//record if i'm in a site
+			if(neigh.getCoord().distance(this.getCoord())<=Parameter.foodBuffer){
+				double dist = neigh.getCoord().distance(this.getCoord());
+				if(dist<minDist){
+					myCell = neigh;
+					minDist=dist;
+				}	
+			}
+		}
+
+		//if(obj.size()<2)obj=getVisibleFoodPatches(2*Parameter.visual_range);
+		this.visualPatches = obj;
+
+		updateMycell(myCell);
+
+
+	}
+
+	private void updateMycell(Cell myCell){
+		//i'm in a cell
+		if(myCell!=null){
+
+			//my last cell was not null
+			if(myPatch!=null){
+
+				//i'm in a different cell
+				if(myCell.getID()!=myPatch.getID()){
+					myCell.setOccupied(this.getId());  //set my new patch to occupied
+					myPatch.setOccupied(-1); //set old patch to not occupied
+				} else {
+					myCell.setOccupied(this.getId()); //i'm in the same cell
+				}
+				//my last cell was null
+			} else {
+				myCell.setOccupied(this.getId()); //i'm in a new cell
+			}
+			//i'm not in a cell	
+		} else if (myPatch!=null){
+			myPatch.setOccupied(-1); //set old patch to not occupied (if i've just left it, i.e., myPatch is not null yet)
+		}
+		//update my cell (new patch or null)
+		this.myPatch = myCell;
 	}
 
 	private Cell getCurrentFoodPatch(){

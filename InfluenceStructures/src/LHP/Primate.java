@@ -106,9 +106,6 @@ public class Primate {
 		return facing.getEntry(1);
 	}
 	public void setFacing(RealVector rv){
-		//facing = new ArrayRealVector(2,0);
-		//facing.addToEntry(0, x);
-		//facing.addToEntry(1, y);
 		facing = rv;
 		facing.unitize();
 	}

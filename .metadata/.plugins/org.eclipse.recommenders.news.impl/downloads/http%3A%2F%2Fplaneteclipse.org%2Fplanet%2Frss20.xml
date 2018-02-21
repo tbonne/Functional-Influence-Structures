@@ -8,134 +8,472 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
-	<title>PapyrusUML: Papyrus-RT Beta?!</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=548</guid>
-	<link>https://papyrusuml.wordpress.com/2017/03/09/papyrus-rt-beta/</link>
-	<description>&lt;p&gt;I just heard, through the minion grapevine, that there will be an official, managed beta for Papyrus for Real Time! Just like the ones for the big-boys commercial tools! I’m so proud of Me-RT!&lt;/p&gt;
-&lt;p&gt;The beta will be based on Papyrus-RT v0.9, which is planned for release on March 23 (aligned with Eclipse Neon.3), as reported in &lt;a href=&quot;https://papyrusuml.wordpress.com/2017/03/02/papyrus-rt-train-roadmap/&quot;&gt;Papyrus-RT Roadmap: follow the train&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is exciting! Users will be able to play with me, to give their opinions, to suggest improvements, and, basically, to help me get better!&lt;/p&gt;
-&lt;p&gt;I will get my product management/development minions to tell me more…and I will, of course, let you know!&lt;/p&gt;
-&lt;p&gt;Things are getting more and more interesting…&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/548/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=548&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Mar 2017 18:35:39 +0000</pubDate>
+	<title>Eclipse Announcements: Countdown: 2 weeks | Complete IoT Developer Survey</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/iqMjTYobxp8/eclipseorg</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/iqMjTYobxp8/eclipseorg</link>
+	<description>Take 10 minutes to complete the fourth annual IoT Developer survey!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/iqMjTYobxp8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 20 Feb 2018 09:27:00 +0000</pubDate>
 </item>
 <item>
-	<title>Kichwa Coders: Visualizing Docker Containers in Eclipse Che with Weave Scope</title>
-	<guid isPermaLink="false">http://kichwacoders.com/?p=1396</guid>
-	<link>https://kichwacoders.com/2017/03/09/visualizing-docker-containers-in-eclipse-che-with-weave-scope/</link>
-	<description>&lt;p&gt;&lt;img alt=&quot;7scope.png&quot; class=&quot;alignnone size-full wp-image-1550&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/7scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Last Thursday, at the London PaaS User Group (&lt;a href=&quot;https://www.meetup.com/London-PaaS-User-Group-LOPUG/&quot; target=&quot;_blank&quot;&gt;LOPUG&lt;/a&gt;) meetup and heard the best type of technical talk: the kind that immediately inspires you to try out the technology you’ve just learnt about. &lt;a href=&quot;https://twitter.com/st3v&quot; target=&quot;_blank&quot;&gt;Stev Witzel&lt;/a&gt; showed a demo of a mash-up of Cloud Foundry tools (BOSH) with Weave Scope, an open source tool for visualizing, managing and monitoring containers. In the demo, Weave Scope provided a very slick visualization of the individual components and apps running on the Cloud Foundry platform and instantly gave me a deeper comprehension of the complex system.&lt;/p&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
+	<title>JBoss Tools Team: Integration Tooling for Eclipse Oxygen</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/integration-stack-4.5.2.Final.html</guid>
+	<link>https://tools.jboss.org/blog/integration-stack-4.5.2.Final.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Try our complete Eclipse Oxygen and Red Hat JBoss Developer Studio 11 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;jbosstools jbdevstudio blog header&quot; src=&quot;https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.5.2.Final / Developer Studio Integration Stack 11.2.0.GA&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock note&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.5 and Developer Studio 11.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-new-for-this-release&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-new-for-this-release&quot;&gt;&lt;/a&gt;What’s new for this release?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release provides full Teiid Designer tooling support for JBoss Data Virtualization 6.4 runtime.  It provides an updated BPMN2 Modeler and jBPM/Drools for our Business Process Modeling friends.  It also provides full synchronization with Devstudio 11.2.0.GA, JBoss Tools 4.5.2.Final and Eclipse Oxygen.2.  Please note that SwitchYard is deprecated in this release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;released-tooling-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#released-tooling-highlights&quot;&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;jboss-business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-business-process-and-rules-development&quot;&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;bpmn2-modeler-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#bpmn2-modeler-known-issues&quot;&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#bpmn2_1_4_2_final&quot;&gt;BPMN2 1.4.2.Final Known Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;drools-jbpm6-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#drools-jbpm6-known-issues&quot;&gt;&lt;/a&gt;Drools/jBPM6 Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#drools_7_5_0_final&quot;&gt;Drools 7.5.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;switchyard-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#switchyard-highlights&quot;&gt;&lt;/a&gt;SwitchYard Highlights&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#switchyard_2_4_1_final&quot;&gt;SwitchYard 2.4.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;data-virtualization-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#data-virtualization-highlights&quot;&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;teiid-designer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#teiid-designer&quot;&gt;&lt;/a&gt;Teiid Designer&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#teiid_designer_11_1_1_final&quot;&gt;Teiid Designer 11.1.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-an-integration-stack&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-an-integration-stack&quot;&gt;&lt;/a&gt;What’s an Integration Stack?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It’s where DataVirt Tooling, SOA tooling and BRMS tooling are aggregated.  The following frameworks are supported:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;jboss-business-process-and-rules-development-2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-business-process-and-rules-development-2&quot;&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpel.html&quot;&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpmn2.html&quot;&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/drools.html&quot;&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/jbpm.html&quot;&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;jboss-data-virtualization-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-data-virtualization-development&quot;&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/teiiddesigner.html&quot;&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;jboss-integration-and-soa-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-integration-and-soa-development&quot;&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS and SwitchYard to Red Hat JBoss Fuse and Fuse Fabric containers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;All of the Business Process and Rules Development plugins plus SwitchYard. Switchyard is deprecated as of this release.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/fusetools.html&quot;&gt;Fuse Tooling&lt;/a&gt; has moved out of the Integration Stack to be a core part of JBoss Tools and Developer Studio.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;the-jboss-tools-website-features-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#the-jboss-tools-website-features-tab&quot;&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Don’t miss the &lt;a href=&quot;https://tools.jboss.org/features&quot;&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href=&quot;https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=11.2.0&quot;&gt;stand-alone installer&lt;/a&gt; or through our &lt;a href=&quot;http://tools.jboss.org/downloads/overview.html&quot;&gt;JBoss Tools Download Site&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/installation_guide/&quot;&gt;Integration Stack Installation Guide&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Let us know how it goes!&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Paul Leacu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 19 Feb 2018 14:13:29 +0000</pubDate>
+</item>
+<item>
+	<title>Melanie Bats: CheConf18</title>
+	<guid isPermaLink="true">http://melb.enix.org/2018/02/16/che-conf/</guid>
+	<link>http://melb.enix.org/2018/02/16/che-conf/</link>
+	<description>&lt;p&gt;A small post to announce that I will be speaking at &lt;a href=&quot;https://www.eclipse.org/che/checonf18/index.html&quot;&gt;CheConf18&lt;/a&gt;, a one day conference dedicated to &lt;a href=&quot;https://eclipse.org/che/&quot;&gt;Eclipse Che&lt;/a&gt; an extensible cloud development platform. I am really excited to participate to this event! I will co speak with Stevan Le Meur, Che maintainer from RedHat about &lt;strong&gt;Building Extensibility and Community for Che&lt;/strong&gt;. During our session, you’ll get a preview of the work we prototyped at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt; to bring the modeling stack to the web and what class of tools one can envision.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you hadn’t hear about CheConf so far ? No problem: it’s not too late to participate. Indeed, there’s no need to negotiate with your boss, no need to book a flight and an hotel: this conference happens entirely online and is free!&lt;/p&gt;
+
+&lt;p&gt;You just need to &lt;a href=&quot;https://visitor.r20.constantcontact.com/d.jsp?llr=7kv7dn9ab&amp;amp;p=oi&amp;amp;m=1127869207900&amp;amp;sit=dqf8xmplb&amp;amp;f=ab2389bc-9888-4ff7-978e-f922c1210d52&quot;&gt;subscribe&lt;/a&gt; on the web site, and you’ll be able to join the conference when you want.
+Have a look at the great &lt;a href=&quot;https://www.eclipse.org/che/checonf18/sessions.html&quot;&gt;schedule&lt;/a&gt;.
+And do not forget our session &lt;strong&gt;Wednesday February 21, 2018 17:30-18:00 Paris Time&lt;/strong&gt; or &lt;strong&gt;wherever you are&lt;/strong&gt; in the world!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;</description>
+	<pubDate>Fri, 16 Feb 2018 12:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Chris Aniszczyk: Cloud Native and Serverless Landscape</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4200</guid>
+	<link>http://aniszczyk.org/2018/02/16/cloud-native-and-serverless-landscape/</link>
+	<description>&lt;p&gt;For the last year or so, the CNCF has been &lt;a href=&quot;https://www.cncf.io/blog/2018/02/14/cncf-takes-first-step-towards-serverless-computing/&quot;&gt;exploring&lt;/a&gt; the intersection of cloud native and serverless through the &lt;a href=&quot;https://github.com/cncf/wg-serverless&quot;&gt;CNCF Serverless WG&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Very very cool, &lt;a href=&quot;https://twitter.com/st3v&quot;&gt;@st3v&lt;/a&gt; shows &lt;a href=&quot;https://twitter.com/cloudfoundry&quot;&gt;@cloudfoundry&lt;/a&gt; meets &lt;a href=&quot;https://twitter.com/weaveworks&quot;&gt;@weaveworks&lt;/a&gt; scope and &quot;we can see what cloudfoundry looks like for the first time&quot; at &lt;a href=&quot;https://twitter.com/LOPUG&quot;&gt;@lopug&lt;/a&gt; &lt;a href=&quot;https://t.co/ItfaVA2Lz6&quot;&gt;pic.twitter.com/ItfaVA2Lz6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Luke Marsden (@lmarsden) &lt;a href=&quot;https://twitter.com/lmarsden/status/837392795061075968&quot;&gt;March 2, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;I was keen to try out Weave Scope so asked myself “&lt;em&gt;Can I quickly and easily use WeaveScope to visualise the Docker containers in Eclipse Che?&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;The answer was a resounding yes! First of all the Weave Works &lt;a href=&quot;https://www.weave.works/docs/&quot; target=&quot;_blank&quot;&gt;documentation&lt;/a&gt; is terrific (note to self: guides with &lt;a href=&quot;https://www.katacoda.com/&quot; target=&quot;_blank&quot;&gt;Katacoda&lt;/a&gt; are my new gold standard for documentation). I found this  &lt;a href=&quot;https://www.weave.works/guides/monitor-docker-containers/&quot; target=&quot;_blank&quot;&gt;getting started article&lt;/a&gt; which I could adapt for my use-case. Given I already had Che installed &amp;amp; running on my Windows 10 laptop, installing &amp;amp; running Weave Scope was straightforward.&lt;/p&gt;
-&lt;pre class=&quot;brush: bash; title: ; notranslate&quot;&gt;docker-machine ssh default
-sudo wget -O /usr/local/bin/scope \
-   https://github.com/weaveworks/scope/releases/download/latest_release/scope
-sudo chmod a+x /usr/local/bin/scope
-sudo scope launch
-&lt;/pre&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;To my pure joy and delight, it JUST WORKED!!&lt;/p&gt;
-&lt;p&gt;In one browser I had Eclipse Che up and running, I created a few different workspaces&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;2scope&quot; class=&quot;alignnone size-full wp-image-1498&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/2scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;In a separate browser I had Weave Scope running.  As I created workspaces in Che, I would see them automagically appear in the scope tool.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;1scope.png&quot; class=&quot;alignnone size-full wp-image-1500&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/1scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Incidentally, when I first started working with Che it took me a while to understand each Eclipse Che workspace is a separate Docker container, but with this visualisation the understanding is immediate. Weave Scope is a great tool for those new to the technologies to quickly grasp some key concepts.&lt;/p&gt;
-&lt;p&gt;I love, love, love visual representations of systems; it’s a more natural way to quickly gain insights into a system, not to mention commit things to memory in the imagery part of my brain. Weave Scope let’s you monitor CPU usage:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;3scope.png&quot; class=&quot;alignnone size-full wp-image-1520&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/3scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You can also monitor memory usage as workspaces loaded up:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;4scope.png&quot; class=&quot;alignnone size-full wp-image-1523&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/4scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Plus it has a nice way to inspect containers, even attach or exec a shell on them:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;5scope.png&quot; class=&quot;alignnone size-full wp-image-1526&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/03/5scope.png?w=840&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;In this case the system is relatively small and everything is running locally. However, I can easily see how it would be really useful to use Weave Scope when you want to troubleshoot Eclipse Che running in a production environment in the cloud by comparing it with a system running on a local development machine.&lt;/p&gt;
-&lt;p&gt;Weave Scope is &lt;a href=&quot;https://github.com/weaveworks/scope&quot; target=&quot;_blank&quot;&gt;open source&lt;/a&gt;, licensed under Apache-2.0.&lt;/p&gt;
-&lt;h2&gt;Key Takeaways&lt;/h2&gt;
-&lt;p&gt;Weave Scope is a great, slick, open source tool for visualizing &amp;amp; monitoring containers and is really super simple to get started with and use.&lt;/p&gt;
-&lt;p&gt;Eclipse Che, based on the ubiquitous Docker containers, allows leveraging of a whole world of awesome container-related technology, including the Weave Scope visualisation tool.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/1396/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/1396/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=1396&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Mar 2017 12:20:41 +0000</pubDate>
-</item>
-<item>
-	<title>Geniutec: Darkest Dark – Making it to the 4th most popular plugin in 30 Days</title>
-	<guid isPermaLink="false">https://www.genuitec.com/?p=514615</guid>
-	<link>https://www.genuitec.com/darkest-dark-popular-plugin/</link>
-	<description>&lt;p&gt;TL;DR Hit the market need, engage with users, and a lot of blood + sweat.The genesis.In short, we were tired of Eclipse looking stagnant. While other “cool” IDEs and Editors have built up their markets, Eclipse has looked about the same for the last decade. Many love that stability, but many others are ready for change. […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/darkest-dark-popular-plugin/&quot; rel=&quot;nofollow&quot;&gt;Darkest Dark – Making it to the 4th most popular plugin in 30 Days&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 15:27:10 +0000</pubDate>
-</item>
-<item>
-	<title>Mikael Barbero: I’m going to Devoxx US, and you should go as well!</title>
-	<guid isPermaLink="false">https://medium.com/p/1af00158c0e2</guid>
-	<link>https://medium.com/@mikael.barbero/going-to-devoxx-us-and-you-should-go-as-well-1af00158c0e2?source=rss-4a3bd8487ad8------2</link>
-	<description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@mikael.barbero/going-to-devoxx-us-and-you-should-go-as-well-1af00158c0e2?source=rss-4a3bd8487ad8------2&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*CaXFUNb2_scHuvarVT4eAw.jpeg&quot; width=&quot;5520&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For the very first time, a Devoxx conference is happening in the USA, in San Jose, CA. It starts on March 21, 2017 and is 3 days long…&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@mikael.barbero/going-to-devoxx-us-and-you-should-go-as-well-1af00158c0e2?source=rss-4a3bd8487ad8------2&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 15:13:50 +0000</pubDate>
-</item>
-<item>
-	<title>Mikael Barbero: Moving from Tumblr to Medium</title>
-	<guid isPermaLink="true">https://mikael-barbero.tumblr.com/post/158106143310</guid>
-	<link>https://mikael-barbero.tumblr.com/post/158106143310</link>
-	<description>&lt;p&gt;Hey, this blog has moved. No new contents will be added here. Please see &lt;a href=&quot;https://medium.com/@mikael.barbero&quot;&gt;https://medium.com/@mikael.barbero&lt;/a&gt; for new contents. Note that articles from this blog have also been imported into Medium.&lt;/p&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 11:49:46 +0000</pubDate>
-</item>
-<item>
-	<title>Mikael Barbero: RFPs for new Friends of Eclipse Enhancement Program (FEEP) projects posted</title>
-	<guid isPermaLink="false">https://medium.com/p/e957f853cbc9</guid>
-	<link>https://medium.com/@mikael.barbero/rfps-for-new-friends-of-eclipse-enhancement-program-feep-projects-posted-e957f853cbc9?source=rss-4a3bd8487ad8------2</link>
-	<description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The Eclipse Foundation is actively seeking bids on 10 new FEEP Development Efforts, along with 5 outstanding Development Efforts that have…&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@mikael.barbero/rfps-for-new-friends-of-eclipse-enhancement-program-feep-projects-posted-e957f853cbc9?source=rss-4a3bd8487ad8------2&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 11:25:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mikael Barbero: EclipseConverge 2017 Submissions are open</title>
-	<guid isPermaLink="false">https://medium.com/p/6dfa773f0334</guid>
-	<link>https://medium.com/@mikael.barbero/eclipseconverge-2017-submissions-are-open-6dfa773f0334?source=rss-4a3bd8487ad8------2</link>
-	<description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The call for papers for EclipseConverge 2017 is open. It is the first step toward what ought to be another great Eclipse event. For those…&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@mikael.barbero/eclipseconverge-2017-submissions-are-open-6dfa773f0334?source=rss-4a3bd8487ad8------2&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 11:22:33 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Vert.x 3.4.0 is released !</title>
-	<guid isPermaLink="true">http://vertx.io/blog/vert-x-3-4-0-is-released</guid>
-	<link>http://vertx.io/blog/vert-x-3-4-0-is-released</link>
-	<description>&lt;article&gt;&lt;p&gt;Vert.x 3.4.0 has just been released with many new exciting features!&lt;/p&gt;
-&lt;p&gt;Since the beginning Vert.x has provided a polyglot runtime, this version simply adds the support of two major languages
-of the JVM ecosystem: Scala 2.12 and Kotlin 1.1.&lt;/p&gt;
-&lt;p&gt;Some features are so important that they deserve to be taken to another level : the Vert.x Web Client focuses on usability
-features for building web applications. It actually builds upon the multi purpose and scalable Http Client and inherits
-all its features.&lt;/p&gt;
-&lt;p&gt;Vert.x RxJava is a very popular extension, 3.4 supports the &lt;code&gt;rx.Single&lt;/code&gt; reactive type as well as &lt;code&gt;Observable&lt;/code&gt;
-&lt;em&gt;reactive pull back pressure&lt;/em&gt;, combined with Vert.x Web Client, it is a very powerful combo.&lt;/p&gt;
-&lt;p&gt;You can now get a stream for large result sets using JDBC client, with RxJava your stream becomes
-naturally an &lt;code&gt;Observable&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;When it comes to IoT, Vert.x is a relevant choice thanks to its unique toolkit approach that combines
- modularity and reduced footprint, there are no doubts that the new Vert.x MQTT Server extends Vert.x capabilities
- in this field!&lt;/p&gt;
-&lt;p&gt;Everyone knows Kafka, everyone loves Kafka, the new Vert.x Kafka Client gives you everything you need to use Kafka
-the Vert.x way!&lt;/p&gt;
-&lt;p&gt;On the microservices side, Vert.x gRPC will give a boost to your networking and Vert.x Config fills the gap
-in our toolbox. In addition we provide now a full fledged Vert.x Consul client!&lt;/p&gt;
-&lt;p&gt;During this release cycle, we paid special attention to security, ensuring that Vert.x-Web sessions are safe and
-follow the OWASP recommendations. Also, Vert.x web got many usability improvements, with a revised OAuth2 setup and a new &lt;code&gt;htdigest&lt;/code&gt; authentication scheme.&lt;/p&gt;
-&lt;p&gt;Devops hasn’t been forgotten with Vert.x Health Check, a key feature in application monitoring.&lt;/p&gt;
-&lt;p&gt;On top of many bug fixes, here is a list of the most important new features you can find in 3.4.0:&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;[NEWS] &lt;a href=&quot;https://twitter.com/CloudNativeFdn?ref_src=twsrc%5Etfw&quot;&gt;@CloudNativeFdn&lt;/a&gt; takes steps toward &lt;a href=&quot;https://twitter.com/hashtag/serverless?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#serverless&lt;/a&gt; computing, in collaboration w/ &lt;a href=&quot;https://twitter.com/AstasiaMyers?ref_src=twsrc%5Etfw&quot;&gt;@AstasiaMyers&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/sraney?ref_src=twsrc%5Etfw&quot;&gt;@SRaney&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/redpointvc?ref_src=twsrc%5Etfw&quot;&gt;@RedpointVC&lt;/a&gt; &lt;img alt=&quot;➡&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/27a1.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;a href=&quot;https://t.co/BHg9lgPIFu&quot;&gt;https://t.co/BHg9lgPIFu&lt;/a&gt; &lt;a href=&quot;https://t.co/sbOO85rZqT&quot;&gt;pic.twitter.com/sbOO85rZqT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— CNCF (@CloudNativeFdn) &lt;a href=&quot;https://twitter.com/CloudNativeFdn/status/963822190356348928?ref_src=twsrc%5Etfw&quot;&gt;February 14, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;As the first artifacts of the working group, we are happy to announce a &lt;a href=&quot;https://github.com/cncf/wg-serverless/tree/master/whitepaper&quot;&gt;whitepaper&lt;/a&gt; and &lt;a href=&quot;https://github.com/cncf/wg-serverless#landscape&quot;&gt;landscape&lt;/a&gt; to bring some clarity to this early and evolving technology space. The CNCF Serverless WG is also working on a &lt;a href=&quot;https://github.com/cloudevents/spec&quot;&gt;draft specification&lt;/a&gt; for describing event data in a common way to ease event declaration and delivery, focused on the serverless space. The goal is to eventually present this project to the CNCF TOC to formalize it as an official CNCF project:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;the CloudEvents draft specification finally has a logo, so we're a bit more legitimate as an open source project &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;a href=&quot;https://t.co/FlO8q8eHT3&quot;&gt;https://t.co/FlO8q8eHT3&lt;/a&gt; &lt;a href=&quot;https://t.co/6LlfPpX3v0&quot;&gt;pic.twitter.com/6LlfPpX3v0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Chris Aniszczyk (@cra) &lt;a href=&quot;https://twitter.com/cra/status/964440866604703744?ref_src=twsrc%5Etfw&quot;&gt;February 16, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;We’re still early days, but in my opinion, serverless is one application/programming built on cloud native technology. There are some open source efforts out there for serverless but they tend to be focused on specific projects (e.g., &lt;a href=&quot;https://github.com/openfaas/faas&quot;&gt;OpenFaaS&lt;/a&gt;, &lt;a href=&quot;https://github.com/kubeless/kubeless&quot;&gt;kubeless&lt;/a&gt;) versus collaboration across cloud providers and startups. The CNCF is looking to enable collaboration/projects in this space that adhere to our values. What are our values? See these from our &lt;a href=&quot;https://www.cncf.io/about/charter/&quot;&gt;charter&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Vert.x Infinispan is a new cluster option and supersedes the JGroups option&lt;/li&gt;
-&lt;li&gt;HTTP and Web client redirect handling&lt;/li&gt;
-&lt;li&gt;Zero-config service proxies generation with a &lt;code&gt;processor&lt;/code&gt; classified jar&lt;/li&gt;
-&lt;li&gt;a new &lt;code&gt;SelfSignedCertificate&lt;/code&gt; to make easy to create tests and demos with TLS/SSL&lt;/li&gt;
-&lt;li&gt;Hystrix metrics in the circuit breaker&lt;/li&gt;
-&lt;li&gt;Handlebars templates can now fully resolve properties passed to them&lt;/li&gt;
-&lt;li&gt;JsonObject POJO mapping convenience&lt;/li&gt;
-&lt;li&gt;Http compression level option&lt;/li&gt;
-&lt;li&gt;Groovy support now uses extension methods and does not generate wrappers anymore&lt;/li&gt;
-&lt;li&gt;Dropwizard match metrics can now have an alias&lt;/li&gt;
-&lt;li&gt;RxHelper method for adapting an &lt;code&gt;Observable&lt;/code&gt; to a &lt;code&gt;ReadStream&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;RxHelper method for adpating a &lt;code&gt;Handler&amp;gt;&lt;/code&gt; to a &lt;code&gt;Subscriber&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;provide Alpine and Busybox docker images&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast is better than slow&lt;/strong&gt;. The foundation enables projects to progress at high velocity to support aggressive adoption by users.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open&lt;/strong&gt;. The foundation is open and accessible, and operates independently of specific partisan interests. The foundation accepts all contributors based on the merit of their contributions, and the foundation’s technology must be available to all according to open source values. The technical community and its decisions shall be transparent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fair&lt;/strong&gt;. The foundation will avoid undue influence, bad behavior or “pay-to-play” decision-making.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strong technical identity&lt;/strong&gt;. The foundation will achieve and maintain a high degree of its own technical identify that is shared across the projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clear boundaries&lt;/strong&gt;. The foundation shall establish clear goals, and in some cases, what the non-goals of the foundation are to allow projects to effectively co-exist, and to help the ecosystem understand where to focus for new innovation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable&lt;/strong&gt;. Ability to support all scales of deployment, from small developer centric environments to the scale of enterprises and service providers. This implies that in some deployments some optional components may not be deployed, but the overall design and architecture should still be applicable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platform agnostic&lt;/strong&gt;. The specifications developed will not be platform specific such that they can be implemented on a variety of architectures and operating systems.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vert.x 3.4.0 release notes:&lt;/p&gt;
+&lt;p&gt;Anyways, if you’re interested in this space, I highly recommend you attend the &lt;a href=&quot;https://github.com/cncf/wg-serverless&quot;&gt;CNCF Serverless WG meetings&lt;/a&gt; which are public and currently happen on a weekly basis.&lt;/p&gt;</description>
+	<pubDate>Fri, 16 Feb 2018 10:21:03 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Presentation: Spring Tools 4 - Eclipse and Beyond</title>
+	<guid isPermaLink="true">http://www.infoq.com/presentations/sts4-eclipse-vscode-atom?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/presentations/sts4-eclipse-vscode-atom?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;https://res.infoq.com/presentations/sts4-eclipse-vscode-atom/en/mediumimage/Marbig-1518831517981.JPG&quot; /&gt;&lt;p&gt;Martin Lippert and Kris De Volder introduce and demo a new generation of Spring tools including Spring Tool Suite for Eclipse (STS4), STS4 VS Code and STS4 Atom.&lt;/p&gt; &lt;i&gt;By Martin Lippert&lt;/i&gt;</description>
+	<pubDate>Thu, 15 Feb 2018 18:27:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools 4.5.3.AM1 for Eclipse Oxygen.2</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.3.am1-for-oxygen.2.html</guid>
+	<link>https://tools.jboss.org/blog/4.5.3.am1-for-oxygen.2.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.5.3.AM1 (Developer Milestone 1) build for Eclipse Oxygen.2.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.3.AM1.html&quot;&gt;JBoss Tools 4.5.3 AM1&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.3.AM1.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift&quot;&gt;&lt;/a&gt;OpenShift&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;minishift-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#minishift-server-adapter&quot;&gt;&lt;/a&gt;Minishift Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new server adapter has been added to support upstream Minishift.
+      While the server adapter itself has limited functionality, it is able to start and stop the Minishift virtual machine via its minishift binary.
+      From the Servers view, click &lt;strong&gt;New&lt;/strong&gt; and then type minishift, that will bring up a command to setup and/or launch the Minishift server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All you have to do is set the location of the minishift binary file, the type of virtualization hypervisor
+      and an optional Minishift profile name.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you’re finished, a new Minishift Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;/a&gt;New shortcuts in Fuse Integration perspective&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Shortcuts for the Java, Launch, and Debug perspectives and basic navigation operations are now provided within the Fuse Integration perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The result is a set of buttons in the Toolbar:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Toolbar action&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newToolbarAction.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All of the associated keyboard shortcuts are also available, such as Ctrl+Shift+T to open a Java Type.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;/a&gt;Performance improvement: Loading Advanced tab for Camel Endpoints&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The loading time of the &quot;Advanced&quot; tab in the Properties view for Camel Endpoints is greatly improved.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Advanced Tab in Properties view&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/advancedTab.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Previously, in the case of Camel Components that have a lot of parameters, it took several seconds to load the Advanced tab. For example, for the File component, it would take ~3.5s. It now takes ~350ms. The load time has been reduced by a factor of 10. (See this interesting &lt;a href=&quot;https://www.nngroup.com/articles/response-times-3-important-limits/&quot;&gt;article on response time&lt;/a&gt;)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you notice other places showing slow performance, you can file a report by using the &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS&quot;&gt;Fuse Tooling issue tracker&lt;/a&gt;. The Fuse Tooling team really appreciates your help. Your feedback contributes to our development priorities and improves the Fuse Tooling user experience.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 13 Feb 2018 20:44:40 +0000</pubDate>
+</item>
+<item>
+	<title>Lorenzo Bettini: Eclipse tested with a few Gnome themes</title>
+	<guid isPermaLink="false">http://www.lorenzobettini.it/?p=1048</guid>
+	<link>http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/</link>
+	<description>&lt;p&gt;In this small blog post I’ll show how Eclipse looks like in Linux Gnome (Ubuntu 17.10) with a few Gnome themes.&lt;/p&gt;
+&lt;p&gt;First of all, the default Ubuntu theme, &lt;strong&gt;Ambiance&lt;/strong&gt;, makes Eclipse look not very nice… see the icons, which are “packed” and “compressed” in the toolbar, not to mention the cut “Filter Files” textbox in the “Git Staging” view:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-ambiance/&quot; rel=&quot;attachment wp-att-1049&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1049&quot; height=&quot;375&quot; src=&quot;https://i0.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-ambiance.png?resize=625%2C375&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Numix&lt;/strong&gt; has similar problems:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-numix/&quot; rel=&quot;attachment wp-att-1050&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1050&quot; height=&quot;375&quot; src=&quot;https://i2.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-numix.png?resize=625%2C375&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adwaita&lt;/strong&gt;, (the default Gnome theme) instead makes it look great:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-adwaita/&quot; rel=&quot;attachment wp-att-1051&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1051&quot; height=&quot;375&quot; src=&quot;https://i0.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-adwaita.png?resize=625%2C375&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The same holds for alternative themes; the following screenshots are based on &lt;strong&gt;Arc&lt;/strong&gt;, &lt;strong&gt;Pop&lt;/strong&gt; and &lt;strong&gt;Matcha&lt;/strong&gt;, respectively:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-arc/&quot; rel=&quot;attachment wp-att-1052&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1052&quot; height=&quot;375&quot; src=&quot;https://i1.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-arc.png?resize=625%2C375&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-pop/&quot; rel=&quot;attachment wp-att-1053&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1053&quot; height=&quot;375&quot; src=&quot;https://i2.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-pop.png?resize=625%2C375&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.lorenzobettini.it/2018/02/eclipse-tested-with-a-few-gnome-themes/eclipse-matcha/&quot; rel=&quot;attachment wp-att-1054&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1054&quot; height=&quot;374&quot; src=&quot;https://i1.wp.com/www.lorenzobettini.it/wp-content/uploads/2018/02/eclipse-matcha.png?resize=625%2C374&quot; width=&quot;625&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So, in the end, stay away from Ubuntu default theme &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;sociable&quot;&gt;&lt;div class=&quot;sociable_tagline&quot;&gt;Be Sociable, Share!&lt;/div&gt;&lt;ul class=&quot;clearfix&quot;&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://twitter.com/intent/tweet?text=Eclipse%20tested%20with%20a%20few%20Gnome%20themes%20-%20http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F%20&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;t=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;https://mail.google.com/mail/?view=cm&amp;amp;fs=1&amp;amp;to&amp;amp;su=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;body=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;ui=2&amp;amp;tf=1&amp;amp;shva=1&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;email&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; rel=&quot;nofollow&quot; title=&quot;Add to favorites - doesn't work in Chrome&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;StumbleUpon&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://delicious.com/post?url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;notes=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Delicious&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.google.com/reader/link?url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;srcURL=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;srcTitle=Lorenzo+Bettini+My+Home+Page&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Google Reader&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;source=Lorenzo+Bettini+My+Home+Page&amp;amp;summary=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;amp;Url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;Title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; style=&quot;background-position: 0px 0px;&quot; target=&quot;_blank&quot; title=&quot;BlinkList&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel=&quot;nofollow&quot; style=&quot;cursor: pointer;&quot;&gt;&lt;img src=&quot;https://i0.wp.com/www.lorenzobettini.it/wp-content/plugins/sociable/images/more.png?w=625&quot; /&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div id=&quot;sociable-post-1048&quot; style=&quot;display: none;&quot;&gt;   
+
+    &lt;div id=&quot;sociable&quot; style=&quot;display: block;&quot;&gt;
+
+
+
+		&lt;div class=&quot;popup&quot;&gt;
+
+			&lt;div class=&quot;content&quot;&gt;
+
+				&lt;ul&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;t=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Myspace&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://digg.com/submit?phase=2&amp;amp;url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;bodytext=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Digg&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://reddit.com/submit?url=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Reddit&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.google.com/bookmarks/mark?op=edit&amp;amp;bkmk=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;annotation=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Google Bookmarks&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;t=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;HackerNews&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://reporter.es.msn.com/?fn=contribute&amp;amp;Title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;URL=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;cat_id=6&amp;amp;tag_id=31&amp;amp;Remark=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;MSNReporter&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://sphinn.com/index.php?c=post&amp;amp;m=submit&amp;amp;link=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Sphinn&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://posterous.com/share?linkto=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;title=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;selection=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Posterous&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;width: 16px;&quot;&gt;&lt;a class=&quot;option1_16&quot; href=&quot;http://www.tumblr.com/share?v=3&amp;amp;u=http%3A%2F%2Fwww.lorenzobettini.it%2F2018%2F02%2Feclipse-tested-with-a-few-gnome-themes%2F&amp;amp;t=Eclipse%20tested%20with%20a%20few%20Gnome%20themes&amp;amp;s=In%20this%20small%20blog%20post%20I%27ll%20show%20how%20Eclipse%20looks%20like%20in%20Linux%20Gnome%20%28Ubuntu%2017.10%29%20with%20a%20few%20Gnome%20themes.%0D%0A%0D%0AFirst%20of%20all%2C%20the%20default%20Ubuntu%20theme%2C%20Ambiance%2C%20makes%20Eclipse%20look%20not%20very%20nice...%20see%20the%20icons%2C%20which%20are%20%22packed%22%20and%20%22compressed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Tumblr&quot;&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;			
+
+			&lt;/div&gt;        
+
+		  &lt;a class=&quot;close&quot; style=&quot;cursor: pointer;&quot;&gt;
+
+		  &lt;img src=&quot;https://i0.wp.com/www.lorenzobettini.it/wp-content/plugins/sociable/images/closelabel.png?w=625&quot; title=&quot;close&quot; /&gt;
+
+		  &lt;/a&gt;
+
+		&lt;/div&gt;
+
+	&lt;/div&gt; 
+
+  &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;sociable&quot; style=&quot;float: none;&quot;&gt;&lt;ul class=&quot;clearfix&quot;&gt;&lt;li id=&quot;Twitter_Counter&quot;&gt;&lt;a class=&quot;twitter-share-button&quot; href=&quot;https://twitter.com/share&quot;&gt;Tweet&lt;/a&gt;&lt;/li&gt;&lt;li id=&quot;Facebook_Counter&quot;&gt;&lt;/li&gt;&lt;li id=&quot;Google_p&quot;&gt;&lt;/li&gt;&lt;li id=&quot;LinkedIn_Counter&quot;&gt;&lt;/li&gt;&lt;li id=&quot;StumbleUpon_Counter&quot;&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 13 Feb 2018 09:53:13 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: Python 3 and Import Hooks for OSGi Services</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-8198790809149751713</guid>
+	<link>http://eclipseecf.blogspot.com/2018/02/python-3-and-import-hooks-for-osgi.html</link>
+	<description>In a previous post I described using &lt;a href=&quot;http://eclipseecf.blogspot.com/2017/12/remote-services-between-python-and-java.html&quot; target=&quot;_blank&quot;&gt;Python for implementing OSGi Services&lt;/a&gt;.   This Python&amp;lt;-&amp;gt;Java service bridge allows Python-provided/implemented OSGi services called from Java, and Java-provided/implemented OSGi Services called from Python.   OSGi Remote Services provides a standardized way of communicating service meta-data (e.g. service contracts, endpoint meta-data) between Java and Python processes.&lt;br /&gt;&lt;br /&gt;As this Java&amp;lt;-&amp;gt;Python communication conforms to the OSGi Remote Services specification, everything is completely inter-operable with Declarative Services and/or other frameworks based upon OSGi Services.  It will also run in any OSGi R5+ environment, including Eclipse, Karaf, OSGi-based web servers, or other OSGi-based environments.&lt;br /&gt;&lt;br /&gt;Recently, Python 3 has introduced the concept of an &lt;b&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0302/&quot; target=&quot;_blank&quot;&gt;Import Hook&lt;/a&gt;&lt;/b&gt;.   An import hook allows the python path and the behavior of the python import statement to be dynamically or extended. &lt;br /&gt;&lt;br /&gt;In the most recent version (2.7) of the &lt;a href=&quot;https://github.com/ECF/Py4j-RemoteServicesProvider&quot; target=&quot;_blank&quot;&gt;ECF Py4j Distribution Provider&lt;/a&gt;, we use import hooks so that Python module import is resolved by a Java-side OSGi ModuleResolver service.   For example, as described in &lt;a href=&quot;https://wiki.eclipse.org/Tutorial:_Python_for_OSGi_Services&quot; target=&quot;_blank&quot;&gt;this tutorial&lt;/a&gt;, this Python statement&lt;br /&gt;&lt;pre&gt;&lt;div&gt;&lt;br /&gt;from hello import HelloServiceImpl&lt;/div&gt;&lt;br /&gt;&lt;/pre&gt;imports the hello.py module as a string loaded from &lt;b&gt;within &lt;/b&gt;an OSGi bundle.  Among other things, this allows OSGi dynamics to be used to add and remove modules from the python path without stopping and restarting either the Java or the Python processes.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Tue, 13 Feb 2018 02:15:52 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>vert.x project: Eclipse Vert.x 3.5.1 released!</title>
+	<guid isPermaLink="true">http://vertx.io/blog/eclipse-vert-x-3-5-1-released</guid>
+	<link>http://vertx.io/blog/eclipse-vert-x-3-5-1-released</link>
+	<description>&lt;article&gt;&lt;p&gt;We have just released Vert.x 3.5.1!&lt;/p&gt;
+&lt;h4 id=&quot;fixes-first-&quot;&gt;Fixes first!&lt;/h4&gt;
+&lt;p&gt;As usual this release fixes bugs reported in 3.5.0, see the release notes.&lt;/p&gt;
+&lt;h4 id=&quot;junit-5-support&quot;&gt;JUnit 5 support&lt;/h4&gt;
+&lt;p&gt;This release introduces the new &lt;a href=&quot;https://github.com/vert-x3/vertx-junit5&quot;&gt;vertx-junit5 module&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://junit.org/junit5/&quot;&gt;JUnit 5&lt;/a&gt; is a rewrite of the famous Java testing framework that brings new interesting features, including:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.4.0---Release-Notes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.4.0---Release-Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;nested tests,&lt;/li&gt;
+&lt;li&gt;the ability to give a human-readable description of tests and test cases (and yes, even use emojis),&lt;/li&gt;
+&lt;li&gt;a modular extension mechanism that is more powerful than the JUnit 4 runner mechanism (@RunWith annotation),&lt;/li&gt;
+&lt;li&gt;conditional test execution,&lt;/li&gt;
+&lt;li&gt;parameterized tests, including from sources such as CSV data,&lt;/li&gt;
+&lt;li&gt;the support of Java 8 lambda expressions in the reworked built-in assertions API,&lt;/li&gt;
+&lt;li&gt;support for running tests previously written for JUnit 4.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suppose that we have a &lt;code&gt;SampleVerticle&lt;/code&gt; verticle that exposes a HTTP server on port 11981.
+Here is how we can test its deployment as well as the result of 10 concurrent HTTP requests:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-property&quot;&gt;@Test&lt;/span&gt;
+&lt;span class=&quot;hljs-property&quot;&gt;@DisplayName&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;🚀 Deploy a HTTP service verticle and make 10 requests&quot;&lt;/span&gt;)
+&lt;span class=&quot;hljs-literal&quot;&gt;void&lt;/span&gt; useSampleVerticle(Vertx vertx, VertxTestContext testContext) {
+  WebClient webClient = WebClient.create(vertx);
+  Checkpoint deploymentCheckpoint = testContext.checkpoint();
+
+  Checkpoint requestCheckpoint = testContext.checkpoint(&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;);
+  vertx.deployVerticle(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; SampleVerticle(), testContext.succeeding(id&lt;span class=&quot;hljs-function&quot;&gt; -&amp;gt;&lt;/span&gt; {
+    deploymentCheckpoint.flag();
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (int i = &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;; i++) {
+      webClient.get(&lt;span class=&quot;hljs-number&quot;&gt;11981&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;localhost&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;/&quot;&lt;/span&gt;)
+        .as(BodyCodec.string())
+        .send(testContext.succeeding(resp&lt;span class=&quot;hljs-function&quot;&gt; -&amp;gt;&lt;/span&gt; {
+          testContext.verify&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-params&quot;&gt;(() -&amp;gt; {
+            assertThat(resp.statusCode()).isEqualTo(&lt;span class=&quot;hljs-number&quot;&gt;200&lt;/span&gt;);
+            assertThat(resp.body()).contains(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Yo!&quot;&lt;/span&gt;);
+            requestCheckpoint.flag();
+          })&lt;/span&gt;;
+        }));
+    }
+  }));
+}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The test method above benefits from the injection of a working &lt;code&gt;Vertx&lt;/code&gt; context, a &lt;code&gt;VertxTestContext&lt;/code&gt; for dealing with
+asynchronous operations, and the guarantee that the execution time is bound by a timeout which can optionally be configured
+using a &lt;code&gt;@Timeout&lt;/code&gt; annotation.&lt;/p&gt;
+&lt;p&gt;The test succeeds when all checkpoints have been flagged.
+Note that &lt;code&gt;vertx-junit5&lt;/code&gt; is agnostic of the assertions library being used: you may opt for the built-in JUnit 5 assertions
+or use a 3rd-party library such as &lt;a href=&quot;http://joel-costigliola.github.io/assertj/&quot;&gt;AssertJ&lt;/a&gt; as we did in the example above.&lt;/p&gt;
+&lt;p&gt;You can checkout the &lt;a href=&quot;https://github.com/vert-x3/vertx-junit5&quot;&gt;source on GitHub&lt;/a&gt;, read
+&lt;a href=&quot;http://vertx.io/docs/vertx-junit5/java/&quot;&gt;the manual&lt;/a&gt; and learn from
+&lt;a href=&quot;https://github.com/vert-x3/vertx-examples/tree/master/junit5-examples&quot;&gt;the examples&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;web-api-contract-enhancements&quot;&gt;Web API Contract enhancements&lt;/h4&gt;
+&lt;p&gt;The package &lt;code&gt;vertx-web-api-contract&lt;/code&gt; includes a variety of fixes, from schema &lt;code&gt;$ref&lt;/code&gt; to
+&lt;a href=&quot;http://vertx.io/docs/vertx-web-api-contract/java/&quot;&gt;revamped documentation&lt;/a&gt;. You can give a look at list of all
+&lt;a href=&quot;https://github.com/vert-x3/vertx-web/pull/802&quot;&gt;fixes/improvements here&lt;/a&gt; and all
+&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.5.1-Breaking-Changes#vertx-web-api-contracts&quot;&gt;breaking changes here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;From 3.5.1 to load the openapi spec and instantiate the Router you should use new method &lt;code&gt;OpenAPI3RouterFactory.create()&lt;/code&gt;
+that replaces old methods &lt;code&gt;createRouterFactoryFromFile()&lt;/code&gt; and &lt;code&gt;createRouterFactoryFromURL()&lt;/code&gt;. This new method accepts
+relative paths, absolute paths, local URL with &lt;code&gt;file://&lt;/code&gt; and remote URL with &lt;code&gt;http://&lt;/code&gt;. Note that if you want refeer to
+a file relative to your jar’s root, you can simply use a relative path and the parser will look out the jar and into the
+jar for the spec.&lt;/p&gt;
+&lt;p&gt;From 3.5.1 all settings about &lt;code&gt;OpenAPI3RouterFactory&lt;/code&gt; behaviours during router generation are inglobed in a new object called
+&lt;a href=&quot;http://vertx.io/docs/apidocs/io/vertx/ext/web/api/contract/RouterFactoryOptions.html&quot;&gt;&lt;code&gt;RouterFactoryOptions&lt;/code&gt;&lt;/a&gt;. From
+this object you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Configure if you want to mount a default validation failure handler and which one
+(methods &lt;code&gt;setMountValidationFailureHandler(boolean)&lt;/code&gt; and &lt;code&gt;setValidationFailureHandler(Handler)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Configure if you want to mount a default 501 not implemented handler and which one
+(methods &lt;code&gt;setMountNotImplementedFailureHandler(boolean)&lt;/code&gt; and &lt;code&gt;setNotImplementedFailureHandler(Handler)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Configure if you want to mount &lt;code&gt;ResponseContentTypeHandler&lt;/code&gt; automatically
+(method &lt;code&gt;setMountResponseContentTypeHandler(boolean)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Configure if you want to fail during router generation when security handlers are not configured
+(method &lt;code&gt;setRequireSecurityHandlers(boolean)&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After initialization of route, you can mount the &lt;code&gt;RouterFactoryOptions&lt;/code&gt; object with method &lt;code&gt;routerFactory.setOptions()&lt;/code&gt;
+when you want before calling &lt;code&gt;getRouter()&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;rxjava-deprecation-removal&quot;&gt;RxJava deprecation removal&lt;/h4&gt;
+&lt;p&gt;It is important to know that 3.5.x will be the last release with the legacy &lt;code&gt;xyzObservable()&lt;/code&gt; methods:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-annotation&quot;&gt;@Deprecated&lt;/span&gt;()
+&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; Observable &lt;span class=&quot;hljs-title&quot;&gt;listenObservable&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; port, String host)&lt;/span&gt;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;has been replaced since Vert.x 3.4 by:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; Single &lt;span class=&quot;hljs-title&quot;&gt;rxListen&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; port, String host)&lt;/span&gt;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;xyzObservable()&lt;/code&gt; deprecated methods will be &lt;a href=&quot;https://github.com/vert-x3/vertx-rx/issues/113&quot;&gt;removed&lt;/a&gt; in Vert.x 3.6.&lt;/p&gt;
+&lt;h4 id=&quot;wrap-up&quot;&gt;Wrap up&lt;/h4&gt;
+&lt;p&gt;Vert.x 3.5.1 release notes and breaking changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.5.1-Release-Notes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.5.1-Release-Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.5.1-Breaking-Changes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.5.1-Breaking-Changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The event bus client using the SockJS bridge are available from NPM, Bower and as a WebJar:&lt;/p&gt;
 &lt;ul&gt;
@@ -144,232 +482,431 @@ follow the OWASP recommendations. Also, Vert.x web got many usability improvemen
 &lt;li&gt;&lt;a href=&quot;http://www.webjars.org/&quot;&gt;http://www.webjars.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Docker images are also available on the &lt;a href=&quot;https://hub.docker.com/u/vertx/&quot;&gt;Docker Hub&lt;/a&gt;. The Vert.x distribution is also available from &lt;a href=&quot;http://sdkman.io/index.html&quot;&gt;SDKMan&lt;/a&gt; and &lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.4.0%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.4.0/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.5.1%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.3.3/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding !&lt;/p&gt;
 &lt;/article&gt;</description>
-	<pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+	<pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
 </item>
 <item>
-	<title>Eclipse Announcements: Eclipse IoT Day - San Jose 2017</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/pHxqyGzF7lU/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/pHxqyGzF7lU/</link>
-	<description>Seats are filling-up! Register for the Eclipse IoT Day on March 20.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/pHxqyGzF7lU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 06 Mar 2017 11:10:00 +0000</pubDate>
+	<title>Eclipse Announcements: EclipseCon France 2018 | Call for Papers</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/P-OCvrydq2E/france2018</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/P-OCvrydq2E/france2018</link>
+	<description>Call for paper submissions are now open until March 19. We'll see you June 13 - 14 in Toulouse!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/P-OCvrydq2E&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 12 Feb 2018 14:15:00 +0000</pubDate>
 </item>
 <item>
-	<title>Tom Schindl: e4 on JavaFX with the bnd-maven-plugin (with VS Code)</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=4994</guid>
-	<link>https://tomsondev.bestsolution.at/2017/03/05/e4-on-javafx-with-the-bnd-maven-plugin-with-vs-code/</link>
-	<description>&lt;p&gt;Just a few minutes ago I blogged about our &lt;a href=&quot;https://tomsondev.bestsolution.at/2017/03/05/efxclipse-and-the-future-of-e4-on-javafx/&quot;&gt;future plans&lt;/a&gt; for &lt;a href=&quot;http://efxclipse.org/&quot;&gt;e(fx)clipse&lt;/a&gt; and to show you that we take the things mentionned there really serious I can provide you an initial report on the first 2 points from the the list:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Freedom of development style&lt;/li&gt;
-&lt;li&gt;Freedom of development tool&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Since its inception the way to develop “e4 on JavaFX” meant:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;useage Eclipse PDE inside your Eclipse IDE&lt;/li&gt;
-&lt;li&gt;useage Maven-Tycho as the headless build system&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;We will start to change that and in the weeks to come!&lt;/strong&gt;&lt;/p&gt;
-&lt;h1&gt;First and most important&lt;/h1&gt;
-&lt;p&gt;We won’t take away ANYTHING – if you want to use PDE and Tycho please do so – we are going to support that development style like did in the past!&lt;/p&gt;
-&lt;h1&gt;The future is pure maven/gradle&lt;/h1&gt;
-&lt;p&gt;I’ve played around a lot in the past weeks with Eclipse, IntelliJ IDEA, Netbeans and VS Code to find what would work out best and I think I’ve reached a point where I can provide you some screenshots and screen casts.&lt;/p&gt;
-&lt;h2&gt;Eclipse&lt;/h2&gt;
-&lt;p&gt;In Eclipse all I need to develop my application is the &lt;a href=&quot;http://www.eclipse.org/m2e&quot;&gt;m2e&lt;/a&gt; extension.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tomsondev.bestsolution.at/2017/03/05/e4-on-javafx-with-the-bnd-maven-plugin-with-vs-code/screen-maven-pure-eclipse/&quot; rel=&quot;attachment wp-att-4998&quot;&gt;&lt;img alt=&quot;screen-maven-pure-eclipse&quot; class=&quot;alignnone size-full wp-image-4998&quot; height=&quot;368&quot; src=&quot;https://tomsondev.files.wordpress.com/2017/03/screen-maven-pure-eclipse.png?w=640&amp;amp;h=368&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;VS Code&lt;/h2&gt;
-&lt;p&gt;To give me the extra kick I decided to give VS-Code and the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=redhat.java&quot;&gt;Java-Extension from RedHat&lt;/a&gt; a shot.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;h2&gt;The technology&lt;/h2&gt;
-&lt;p&gt;Now that you have looked at the cool screen-cast let’s talk about the boring technology in the backend. We rely on 2 things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;That we publish the complete e(fx)clipse platform in a &lt;a href=&quot;http://maven.bestsolution.at/&quot;&gt;Maven-Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The excellent &lt;a href=&quot;http://njbartlett.name/2015/03/27/announcing-bnd-maven-plugin.html&quot;&gt;biz.aQute.bnd/bnd-maven-plugin&lt;/a&gt; part of the &lt;a href=&quot;https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin&quot;&gt;bnd-toolsuite&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/tomsondev.wordpress.com/4994/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/tomsondev.wordpress.com/4994/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=tomsondev.bestsolution.at&amp;amp;blog=7995503&amp;amp;post=4994&amp;amp;subd=tomsondev&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Sun, 05 Mar 2017 20:23:45 +0000</pubDate>
+	<title>Wayne Beaton: The Eclipse Committer Election Workflow</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5437</guid>
+	<link>https://waynebeaton.wordpress.com/2018/02/08/the-eclipse-committer-election-workflow/</link>
+	<description>&lt;p&gt;In the world of open source, &lt;em&gt;Committers&lt;/em&gt; are ones who hold they keys. Committers decide what code goes into the code base, they decide how a project builds, and they ultimately decide what gets delivered to the adopter community. With awesome power, comes awesome responsibility, and so it’s no mistake that the &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#2_1_Open_Source_Rules_of_Engagement&quot;&gt;Open Source Rules of Engagement&lt;/a&gt; described by the Eclipse Development Process, puts &lt;em&gt;Meritocracy&lt;/em&gt; on equal footing with &lt;em&gt;Transparency&lt;/em&gt; and &lt;em&gt;Openness&lt;/em&gt;: becoming a committer isn’t necessarily hard, but it does require a demonstration of commitment (committer… commitment… see what I did there?)&lt;/p&gt;
+&lt;p&gt;There’s two ways to become an &lt;em&gt;Eclipse Committer&lt;/em&gt;. The first way is to be listed as an initial committer on a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#starting&quot;&gt;new project proposal&lt;/a&gt;. When projects come to the Eclipse Foundation we need them to actually start with committers, and so we include this as part of the bootstrapping. As part of the process of community vetting a new project proposal, the committers listed are themselves vetted by the community. That’s why we include space for a merit statement for every committer listed on a proposal (in many cases, the merit statement is an implied “these are the people who worked on the code that is being contributed”). In effect, the project proposal process also acts as a committer election that’s open to the entire community.&lt;/p&gt;
+&lt;p&gt;The second way to become a committer is to get voted in via &lt;em&gt;Committer Election&lt;/em&gt;. This starts with a nomination by an existing committer that includes a statement of merit that usually takes the form of a list various contributions that the individual has made to the project. What constitutes a sufficient demonstration of merit varies by project team and PMC. Generally, though, after an individual has made a small number of high quality contributions that demonstrate that they understand how the project works, it’s pretty natural for them to be invited to join the team.&lt;/p&gt;
+&lt;p&gt;There’s actually a third way. In cases where a project is dysfunctional, the project leadership has an option to add and remove committers and project leads. In the rare cases where this option is exercised, it is first discussed in the corresponding &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#4_6_1_PMC&quot;&gt;Project Management Committee&lt;/a&gt;‘s (PMC) mailing list.&lt;/p&gt;
+&lt;p&gt;Last week, we rolled out some new infrastructure to support &lt;em&gt;Committer Elections&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Every project page in the Project Management Infrastructure (PMI) includes a block of &lt;em&gt;Committer Tools&lt;/em&gt; on the right side of the page. From this block, project committers can perform various actions, including the new &lt;em&gt;Nominate a Committer&lt;/em&gt; action.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_5436&quot;&gt;&lt;img alt=&quot;Screenshot from 2018-02-06 10-34-43&quot; class=&quot;  wp-image-5436 aligncenter&quot; height=&quot;377&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screenshot-from-2018-02-06-10-34-43.png?w=181&amp;amp;h=377&quot; width=&quot;181&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Committer Tools&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Clicking this will bring up the nomination form where the existing committer will provide the name and email address of the nominee along with the statement of merit.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_5435&quot;&gt;&lt;img alt=&quot;Screenshot from 2018-02-06 10-35-15&quot; class=&quot;  wp-image-5435 aligncenter&quot; height=&quot;312&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screenshot-from-2018-02-06-10-35-15.png?w=393&amp;amp;h=312&quot; width=&quot;393&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;What the committer sees when they nominate a new committer.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;When you click the &lt;em&gt;Nominate&lt;/em&gt; button, the &lt;em&gt;Committer Election&lt;/em&gt; begins by sending a note to the project mailing list inviting existing project committers to vote. Committers visit the election page to cast their vote and—since this is a transparent process—everybody else can watch the election unfold.&lt;/p&gt;
+&lt;p&gt;According to our election rules, an election ends when either everybody votes in the affirmative or seven days has passed. If at the end of the election we have at least three affirmative votes and no negative votes, the vote is considered successful and it passed on to the PMC for approval (note that when a project has fewer than three committers, success is declared if everybody votes in the affirmative). The PMC will validate that the merit statement is sufficient and that the election was executed correctly, and either approve or veto it. PMC-approved elections get passed into the next piece of the workflow: &lt;em&gt;Committer Paperwork&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Regardless of how a developer becomes a committer (by vote, by proposal, or by appointment), they are required to complete legal paperwork before we can grant them write access to project resources. The Eclipse Foundation needs to ensure that all committers with write access to the code, websites, and issue tracking systems understand their role in the intellectual property process; and that we have accurate records of the people who are acting as change agents on the projects. Committers must provide documentation asserting that they have read, understood, and will follow the committer guidelines; and must gain their employers consent to their participation in Eclipse Foundation open source projects.&lt;/p&gt;
+&lt;p&gt;Our &lt;em&gt;Commmitter Paperwork&lt;/em&gt; process is initiated whenever a developer joins us as a new committer, or—since paperwork is tied to a specific employer—when a committer changes employers.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screen Shot 2018-02-07 at 11.54.35 AM&quot; class=&quot;alignnone size-full wp-image-5438&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screen-shot-2018-02-07-at-11-54-35-am-e1518029639940.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The exact nature of the type of paperwork required varies based on the individual’s employment status and the &lt;a href=&quot;https://www.eclipse.org/membership/&quot;&gt;Eclipse Foundation membership&lt;/a&gt; status of their employer. Again, a full discussion of this is out-of-scope for this post, but we need to have either an &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#paperwork-ica&quot;&gt;Individual Committer Agreement&lt;/a&gt; or a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#paperwork-mca&quot;&gt;Member Committer Agreement&lt;/a&gt; on file for every committer. The workflow guides the new committer through the options.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;Note that we’ve just gotten approval on an update to the Individual Committer Agreement that eliminates the need for the companion Eclipse Foundation Committer Employer Consent Form. This should make it easier for new committers to get started. We’re &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=530861&quot;&gt;rolling the new version out now&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We owe this great new implementation of this workflow to the tireless efforts of the entire Eclipse IT Team, and especially &lt;a href=&quot;https://www.eclipse.org/user/epoirier&quot;&gt;Eric&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/user/cguindon&quot;&gt;Chris&lt;/a&gt;, and &lt;a href=&quot;https://accounts.eclipse.org/users/mward&quot;&gt;Matt&lt;/a&gt;. Big Thanks!&lt;/p&gt;</description>
+	<pubDate>Thu, 08 Feb 2018 15:30:26 +0000</pubDate>
 </item>
 <item>
-	<title>Tom Schindl: e(fx)clipse and the future of e4 on JavaFX</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=4882</guid>
-	<link>https://tomsondev.bestsolution.at/2017/03/05/efxclipse-and-the-future-of-e4-on-javafx/</link>
-	<description>&lt;p&gt;We’ve been a bit silent in the last few months but the reason is not that our investment in e(fx)clipse has been stopped – it’s the complete opposite. We are involved in HUGE JavaFX projects built on top of e4 and JavaFX.&lt;/p&gt;
-&lt;p&gt;At EclipseCon Europe I gave a talk on the future direction of e(fx)clipse who is driven by 3 main topics who are going build the &lt;strong&gt;F&lt;/strong&gt;oundation for a bright future of &lt;strong&gt;e4 on JavaFX&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt;reedom of development style&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt;reedom of development tool&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt;reedom of runtime&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Freedom of development style&lt;/h1&gt;
-&lt;p&gt;As of today e(fx)clipse e4 development style is called “MANIFEST-first” which means you create your OSGi-MANIFEST and from there&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eclipse PDE derives Classpaths, … while you are in your Eclipse IDE&lt;/li&gt;
-&lt;li&gt;Eclipse Tycho derives Build-Paths, … to build applications on your CI-Instance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In future we are going to support other development styles as well:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;bnd/bnd-tools for those of you who’d like to use what OSGi-gurus like &lt;a href=&quot;https://github.com/pkriens&quot;&gt;Peter Kriens&lt;/a&gt;, &lt;a href=&quot;https://github.com/njbartlett&quot;&gt;Neil Bartlett&lt;/a&gt;, … prefer for OSGi-Development, we are already publishing an r5-index since some time. A nice side effect is that bnd support is also available eg in &lt;a href=&quot;https://www.jetbrains.com/idea/&quot;&gt;IntelliJ IDEA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;pom/gradle-first for those of you who’d like to stay with maven/gradle but not all team-members are using Eclipse as their main IDE (or you are not using OSGi as the module system of choice – see more on that below)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Freedom of development tool&lt;/h1&gt;
-&lt;p&gt;Since the first day I’ve spoken about “e4 on JavaFX”, I said that we – the e(fx)clipse project – don’t mind people using other IDEs like Netbeans or IntelliJ IDEA because we are an RCP framework allowing you to built sophisticated applications on top of the brand new Eclipse 4 Application Platform and if you don’t like the Eclipse IDE that’s fine with us.&lt;/p&gt;
-&lt;p&gt;Yes one part (the smaller one) of the Eclipse-project provides tooling to support developers who’ve chose Eclipse as the IDE, and yes we are an Eclipse project (like &lt;a href=&quot;https://eclipse.org/jetty/&quot;&gt;Jetty&lt;/a&gt;, &lt;a href=&quot;http://vertx.io/&quot;&gt;Vert.x&lt;/a&gt;) and Eclipse is our primary development environment but just because it is our IDE of choice this must not mean that it is yours as well.&lt;/p&gt;
-&lt;p&gt;People already managed to use e(fx)clipse to develop application inside IntelliJ IDEA but in future we’d like to provide all developers an excellent out-of-the-box experience.&lt;/p&gt;
-&lt;h1&gt;Freedom of Runtime-System&lt;/h1&gt;
-&lt;p&gt;As of today you can run e4 applications only on the Eclipse Equinox OSGi-Container. In future we’d like to provide you many more options:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Run on ANY r5-OSGi-Container&lt;/li&gt;
-&lt;li&gt;Run without OSGi using NO Module-Container at all&lt;/li&gt;
-&lt;li&gt;Run on Java Platform Module System (JPMS)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Don’t get me wrong! We love OSGi and support for OSGi is still one of the primary targets of e(fx)clipse but we also understand the OSGi might not be the right tool for you and your team.&lt;/p&gt;
-&lt;h1&gt;What’s next&lt;/h1&gt;
-&lt;p&gt;As you might imagine all this is a HUGE amount of work but we (BestSolution.at) are committed to the future e(fx)clipse and we think it is crucial for e(fx)clipse’ future and initial steps have already been &lt;a href=&quot;https://tomsondev.bestsolution.at/2017/01/26/make-it-easy-to-consume-efxclipse-libraries-in-maven-or-gradle/&quot;&gt;made&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Stay tuned for more exciting news in the next few weeks.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/tomsondev.wordpress.com/4882/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/tomsondev.wordpress.com/4882/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=tomsondev.bestsolution.at&amp;amp;blog=7995503&amp;amp;post=4882&amp;amp;subd=tomsondev&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Sun, 05 Mar 2017 19:07:26 +0000</pubDate>
-</item>
-<item>
-	<title>Tom Schindl: Friday fun stuff – JavaFX Based Java IDE</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=4976</guid>
-	<link>https://tomsondev.bestsolution.at/2017/03/04/friday-fun-stuff-javafx-based-java-ide/</link>
-	<description>&lt;p&gt;While I’ve been working (and still work) on general IDE concept and frameworks I decided to today that I want to work on something simpler. &lt;/p&gt;
-&lt;p&gt;After having hacked the whole day I have now a basic Java IDE:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tomsondev.bestsolution.at/2017/03/04/friday-fun-stuff-javafx-based-java-ide/screen-light/&quot; rel=&quot;attachment wp-att-4978&quot;&gt;&lt;img alt=&quot;screen-light&quot; class=&quot;alignnone size-full wp-image-4978&quot; height=&quot;405&quot; src=&quot;https://tomsondev.files.wordpress.com/2017/03/screen-light.png?w=640&amp;amp;h=405&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tomsondev.bestsolution.at/2017/03/04/friday-fun-stuff-javafx-based-java-ide/screen-dark/&quot; rel=&quot;attachment wp-att-4979&quot;&gt;&lt;img alt=&quot;screen-dark&quot; class=&quot;alignnone size-full wp-image-4979&quot; height=&quot;405&quot; src=&quot;https://tomsondev.files.wordpress.com/2017/03/screen-dark.png?w=640&amp;amp;h=405&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nothing fancy but something I can built upon next Friday … .&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/tomsondev.wordpress.com/4976/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/tomsondev.wordpress.com/4976/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=tomsondev.bestsolution.at&amp;amp;blog=7995503&amp;amp;post=4976&amp;amp;subd=tomsondev&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Sat, 04 Mar 2017 00:53:58 +0000</pubDate>
-</item>
-<item>
-	<title>Geniutec: Angular 4 Is Coming!</title>
-	<guid isPermaLink="false">https://www.genuitec.com/?p=514283</guid>
-	<link>https://www.genuitec.com/angular-4/</link>
-	<description>&lt;p&gt;Good news for Angular 2 users — Angular 4, a backwards compatible upgrade, is around the corner!  It will offer further improvements without rewriting the entire framework, as was the case with Angular 2 in the switch from the first version (Minar, I.).  The main change has to do with alteration in certain core libraries […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/angular-4/&quot; rel=&quot;nofollow&quot;&gt;Angular 4 Is Coming!&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Fri, 03 Mar 2017 19:30:02 +0000</pubDate>
-</item>
-<item>
-	<title>Thea Aldrich: Do you want to attend Devoxx US but need some help getting here? Apply for a Devoxx US Community Bursary</title>
-	<guid isPermaLink="false">http://theaaaaaa.wordpress.com/?p=42</guid>
-	<link>https://theaaaaaa.wordpress.com/2017/03/03/do-you-want-to-attend-devoxx-us-but-need-some-help-getting-here-apply-for-a-devoxx-us-community-bursary/</link>
-	<description>&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Last month, I &lt;/span&gt;&lt;a href=&quot;https://theaaaaaa.wordpress.com/2017/01/24/diversity-at-eclipse/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;announced&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; an initiative focused on growing and supporting Eclipse open source projects and developers in communities all over the world. A large part of our effort to attract new community members this spring will be geared towards ensuring our conferences and meetups feature top technical content, from diverse perspectives, in a welcoming and inclusive environment. We are kicking this off by offering a Community Bursary for the inaugural &lt;/span&gt;&lt;a href=&quot;http://www.devoxx.us&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Devoxx US&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Conference on March 21-23 in San Jose, California.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;download&quot; class=&quot; size-full wp-image-47 alignright&quot; src=&quot;https://theaaaaaa.files.wordpress.com/2017/03/download.png?w=676&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Devoxx US features three  days of top developers talking about the hottest new technologies. It’s going to be an incredible event that will cover popular topics such as Angulare, Docker, Java 9, IoT and much more! However, we recognize that the costs associated with attending an event of this nature  are often too high for many people to justify, especially those who are self-funding their ticket. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So, on behalf of the entire Eclipse Foundation, I would like to welcome you to apply for the Devoxx US Community Bursary. Just send an email to &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;mailto:registration@eclipse.org&quot;&gt;registration@devoxx.u&lt;/a&gt;s&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and in your email please include the following: &lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A short bio of yourself&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A short explanation of why you should receive the bursary&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;An explanation of your current activities&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A brief explanation of what you hope to achieve by attending the event, including an overview of any specific aspects of the program from which you hope to learn&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&quot;20160609_1248501&quot; class=&quot; size-full wp-image-51 alignleft&quot; src=&quot;https://theaaaaaa.files.wordpress.com/2017/03/20160609_1248501.jpg?w=676&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Once approved, you’ll receive a free pass to the conference and to Eclipse Converge or Eclipse IOT Day. The bursary is open to anyone, but preference will be given to those who are either currently enrolled in full time studies, or are  members of an organization whose primary role is to help enhance the careers of developers from underrepresented communities. Be sure to get your application in today! You can find out more information about the Community Bursary &lt;a href=&quot;https://devoxx.us/devoxx-us-community-bursary/&quot;&gt;here.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse staff and community members will be on hand all week to answer your questions, and to discuss ideas about how we can continue to build the premier open source professional community. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please visit &lt;/span&gt;&lt;a href=&quot;https://devoxx.us/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;www.devoxx.us&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; to view the full program with over 190 speakers, 200 sessions and  10 track topics.  Register for one of the best developer events this year. See you there!&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/theaaaaaa.wordpress.com/42/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/theaaaaaa.wordpress.com/42/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=theaaaaaa.wordpress.com&amp;amp;blog=123079642&amp;amp;post=42&amp;amp;subd=theaaaaaa&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 03 Mar 2017 17:16:19 +0000</pubDate>
-</item>
-<item>
-	<title>Wayne Beaton: Eclipse IDE, Oxygen Edition; and Java 9</title>
-	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=4475</guid>
-	<link>https://waynebeaton.wordpress.com/2017/03/02/eclipse-ide-oxygen-edition-and-java-9/</link>
-	<description>&lt;p&gt;I’ll admit that I dropped the ball for a while, but I’m back to testing the Eclipse IDE with Java 9. Java 9 includes some pretty major changes, especially in the way that it restricts access to internal code, and so there’s a real risk that Java-based applications are going to break. Just confirming that the Eclipse IDE runs on Java 9 is a critical task (even before we talk about leveraging actual Java 9 features).&lt;/p&gt;
-&lt;p&gt;Today, I downloaded the &lt;a href=&quot;https://jdk9.java.net/jigsaw/&quot;&gt;Java 9 Early Access&lt;/a&gt; Build 158 (March 1/2017) and reconfigured my working installation of the &lt;a href=&quot;https://www.eclipse.org/downloads/index-developer.php&quot;&gt;Eclipse IDE for RCP and RAP Developers&lt;/a&gt;, Oxygen Edition (M5) to use it. I’ve added a few extra features to my installation, including the &lt;a href=&quot;https://projects.eclipse.org/projects/tools.pdt&quot;&gt;PHP Development Tools&lt;/a&gt;, &lt;a href=&quot;https://projects.eclipse.org/projects/datatools&quot;&gt;Data Tools&lt;/a&gt; SQL Designer, &lt;a href=&quot;https://projects.eclipse.org/projects/mylyn.docs&quot;&gt;Mylyn WikiText&lt;/a&gt;, &lt;a href=&quot;https://projects.eclipse.org/projects/tools.tm&quot;&gt;TM Terminal&lt;/a&gt;, and a handy regular expression helper/tester that I found in the &lt;a href=&quot;https://marketplace.eclipse.org&quot;&gt;Eclipse Marketplace&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Configuration is relatively straight forward. The nice thing about the early access builds is that you can just decompress them into a directory on your system without installing them (which will have a impact on your system’s configuration). The downside is that you have to configure your Eclipse IDE to find it. Actually, this isn’t really much of a downside in my opinion: I like to have &lt;em&gt;some degree&lt;/em&gt; of control over what Java  runtime I’m using to run the Eclipse IDE rather than just grabbing the system default.&lt;/p&gt;
-&lt;p&gt;I decompressed the Java build and updated my &lt;code&gt;eclipse.ini&lt;/code&gt; file to point point to it:&lt;/p&gt;
-&lt;pre&gt;...
--vm
-/home/apps/jigsaw-jdk-9-ea+158_linux-x64_bin/jdk-9/bin/
--vmargs
---add-modules=java.se.ee
-...&lt;/pre&gt;
-&lt;p&gt;Note that you need to add the &lt;code&gt;--add-modules&lt;/code&gt; option to tell Java 9 to load some modules that it wouldn’t normally load by default. I’m hopeful that we’ll have an update to the launcher to automatically add this option in the M6 builds (see &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=493761&quot;&gt;Bug 493761&lt;/a&gt;); with this launching the Eclipse IDE will &lt;em&gt;just work&lt;/em&gt; if you happen to have a Java 9 JVM installed as your system default.&lt;/p&gt;
-&lt;p&gt;As a sanity check, I opened the &lt;em&gt;About Eclipse&lt;/em&gt; dialog and reviewed the &lt;em&gt;Configuration&lt;/em&gt; in the &lt;em&gt;Installation Details&lt;/em&gt; to confirm that I’m actually running on Java 9. The next step is to actually start writing some code that leverages Java 9 features; for that I’ll need to install the &lt;a href=&quot;https://marketplace.eclipse.org/content/java-9-support-beta-oxygen&quot;&gt;Java 9 Support (BETA) for Oxygen&lt;/a&gt; from the Eclipse Marketplace.&lt;/p&gt;
-&lt;p&gt;I’m looking forward to learning a lot more about Java 9 at Devoxx US, including these sessions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/FLS-8924/55_New_Features_In_JDK_9&quot;&gt;55 New Features In JDK 9&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/simon_ritter&quot; title=&quot;Simon Ritter&quot;&gt;Simon Ritter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/LNR-6629/A_Post-Apocalyptic_sun.misc.Unsafe_World&quot;&gt;A Post-Apocalyptic sun.misc.Unsafe World&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/christoph_engelbert&quot; title=&quot;Christoph Engelbert&quot;&gt;Christoph Engelbert&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/PPJ-6907/Anticipating_Java_9_-_Functionality_and_Tooling&quot;&gt;Anticipating Java 9 – Functionality and Tooling&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/trisha_gee&quot; title=&quot;Trisha Gee&quot;&gt;Trisha Gee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/ELZ-0187/JDK_9_Language,_Tooling,_and_Library_Features&quot;&gt;JDK 9 Language, Tooling, and Library Features&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/joe_darcy&quot; title=&quot;Joe Darcy&quot;&gt;Joe Darcy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/CCZ-6919/JShell:_An_Interactive_Shell_for_the_Java_Platform&quot;&gt;JShell: An Interactive Shell for the Java Platform&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/robert_field&quot; title=&quot;Robert Field&quot;&gt;Robert Field&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/LVD-9400/Preparing_for_JDK_9_-_AKA_The_Sharp_Edges_of_JDK_9&quot;&gt;Preparing for JDK 9 – AKA The Sharp Edges of JDK 9&lt;/a&gt; with &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/aurelio_garcia-ribeyro&quot; title=&quot;Aurelio Garcia-Ribeyro&quot;&gt;Aurelio Garcia-Ribeyro&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;See you at Devoxx!&lt;br /&gt;
-&lt;img alt=&quot;devoxx_black_transparent400&quot; class=&quot;alignnone size-medium wp-image-4416 aligncenter&quot; height=&quot;104&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/02/devoxx_black_transparent400.png?w=300&amp;amp;h=104&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/4475/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/4475/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=4475&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 02 Mar 2017 20:32:49 +0000</pubDate>
-</item>
-<item>
-	<title>PapyrusUML: Papyrus-RT Roadmap: follow the train</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=504</guid>
-	<link>https://papyrusuml.wordpress.com/2017/03/02/papyrus-rt-train-roadmap/</link>
-	<description>&lt;p&gt;Although the Papyrus for Real Time (Me-RT) project is not officially on the &lt;a href=&quot;https://wiki.eclipse.org/Simultaneous_Release&quot; target=&quot;_blank&quot;&gt;Eclipse Release Train&lt;/a&gt;,  that team has indicated, judged on their &lt;a href=&quot;https://wiki.eclipse.org/Papyrus-RT/Roadmap&quot; target=&quot;_blank&quot;&gt;newly published roadmap&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It should be noted that it is through an initiative of the Papyrus Industry Consortium that  these roadmap will become the norm for all the Papyrus product line!&lt;/p&gt;
-&lt;p&gt;This is a good thing as it should formalise the release schedule for all my variants!&lt;/p&gt;
-&lt;p&gt;The Papyrus-RT roadmap has also shown us more details about the next two releases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Papyrus-RT v0.9 is to be released with Neon.3 in March&lt;/li&gt;
-&lt;li&gt;Papyrus-RT v1.0 is to be released with Oxygen in early July&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;From what I have been told, meeting these deadlines will be feasible, especially as the time between v0.9 and 1.0 will be spent cleaning up the offering for the 1.0 release, with no additional functionality.&lt;/p&gt;
-&lt;p&gt;All the efforts around me continue to be so interesting!&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-ic/&quot;&gt;Papyrus IC&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-rt/&quot;&gt;Papyrus-RT&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/release/&quot;&gt;release&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/roadmap/&quot;&gt;roadmap&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/504/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/504/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=504&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 02 Mar 2017 14:15:50 +0000</pubDate>
-</item>
-<item>
-	<title>Paolo Patierno: “Reactive Internet of Things : the Vert.x way” … meetup in Rome !</title>
-	<guid isPermaLink="false">http://paolopatierno.wordpress.com/?p=4114</guid>
-	<link>https://paolopatierno.wordpress.com/2017/03/02/reactive-internet-of-things-the-vert-x-way-meetup-in-rome/</link>
-	<description>&lt;p&gt;&lt;img alt=&quot;vertx_iot&quot; class=&quot; size-full wp-image-3881 aligncenter&quot; src=&quot;https://paolopatierno.files.wordpress.com/2016/12/vertx_iot.png?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;On &lt;strong&gt;March 16th&lt;/strong&gt; I’ll be guest of the &lt;a href=&quot;https://www.meetup.com/Meet-cast/&quot; target=&quot;_blank&quot;&gt;Meet{cast}&lt;/a&gt; and &lt;a href=&quot;http://www.codemotionworld.com/&quot; target=&quot;_blank&quot;&gt;Codemotion&lt;/a&gt; community for a meetup in &lt;strong&gt;Rome&lt;/strong&gt; speaking about … &lt;strong&gt;“Reactive Internet of Things : the Vert.x way”&lt;/strong&gt;.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;meetcast&quot; class=&quot;  wp-image-4138 aligncenter&quot; height=&quot;89&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/meetcast.png?w=247&amp;amp;h=89&quot; width=&quot;247&quot; /&gt;&lt;img alt=&quot;codemotion&quot; class=&quot;  wp-image-4140 aligncenter&quot; height=&quot;65&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/codemotion-e1488443393194.png?w=363&amp;amp;h=65&quot; width=&quot;363&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;It’s a pleasure for me showing how the Vert.x toolkit can be used for developing Internet of Things solutions leveraging on the pillars of the reactive manifesto (responsive, elastic, resilient and asynchronous).&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Starting from an introduction on what Vert.x is, what it provides and its main features, I’ll move to the messaging and IoT focused components that the toolkit offers. So we’ll see the new &lt;strong&gt;MQTT server&lt;/strong&gt; and &lt;strong&gt;Kafka client&lt;/strong&gt; (officially in the latest 3.4.0 Beta 1 release) and the well know &lt;strong&gt;AMQP Proton and Bridge&lt;/strong&gt; components. Of course …. demos around them !&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Finally, I’ll show how these components are already used today for enterprise IoT solutions introducing the &lt;a href=&quot;https://www.eclipse.org/hono/&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt; project, for handling IoT connectivity, and the &lt;a href=&quot;https://github.com/EnMasseProject&quot; target=&quot;_blank&quot;&gt;EnMasse&lt;/a&gt; which provides a Message as a Service platform. The great thing is that we’ll have the chance to see the code because … they are open source of course !&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;So … what are you waiting for … register for the meetup &lt;a href=&quot;https://www.meetup.com/Meet-cast/events/238084770/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; ! See you in Rome &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/paolopatierno.wordpress.com/4114/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/paolopatierno.wordpress.com/4114/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=paolopatierno.wordpress.com&amp;amp;blog=15467422&amp;amp;post=4114&amp;amp;subd=paolopatierno&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 02 Mar 2017 08:31:18 +0000</pubDate>
-</item>
-<item>
-	<title>Wayne Beaton: Language Server Protocol Talks at Eclipse Converge and Devoxx US</title>
-	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=4445</guid>
-	<link>https://waynebeaton.wordpress.com/2017/03/01/language-server-protocol-talks-at-eclipse-converge-and-devoxx-us/</link>
-	<description>&lt;p&gt;I’m particularly interested in learning more about Language Server Protocol at the combined &lt;a href=&quot;https://www.eclipseconverge.org/na2017/&quot;&gt;Eclipse Converge&lt;/a&gt; and &lt;a href=&quot;https://devoxx.us/&quot;&gt;Devoxx US&lt;/a&gt; conferences at the end of March. We have a handful of projects doing work on the topic, and the opportunity to connect directly with the developers doing the work is too good of an opportunity to miss.&lt;/p&gt;
-&lt;p&gt;I’m hoping to fit the following talks into my schedule.&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/session/language-server-protocol-explained&quot;&gt;Language Server Protocol Explained&lt;/a&gt;&lt;/h3&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/user/22&quot;&gt;Sven Efftinge&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;The Language Server Protocol (LSP) introduced by Microsoft’s VSCode team has been a hot topic recently. In a nutshell it is an effort to unify how editors communicate with advanced language tooling.&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;In this session we want to give you an overview of what the LSP is, why it is so important and how you could leverage it. We will also explain what it does and what it doesn’t do, discuss some misconceptions and show some cool demos based on a Java implementation of the protocol.&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/session/sneak-peek-spring-boot-language-server&quot;&gt;A sneak peek into the Spring Boot language server&lt;/a&gt;&lt;/h3&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/user/1899&quot;&gt;Martin Lippert&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;Based in the language server protocol and the architectural ideas behind it, big chunks of the Spring Boot tooling for Eclipse are currently re-implemented. This talk provides a sneak peek into the implementation and discusses the early experiences using this approach. We dive into the details and challenges how we implemented tooling for Spring Boot property files (pure properties + yaml), support for Cloud Foundry manifest files, and how we extracted and refactored existing Spring IDE code to run inside of a language server.&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/session/building-jdt-language-server-and-how-can-you-build-one-your-own-feature&quot;&gt;Building the JDT Language Server and how can you build one from your own feature&lt;/a&gt;&lt;/h3&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/user/1953&quot;&gt;Gorkem Ercan&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;Eclipse JDT LS (Language Server) project aims to develop a Java Language Server that will make JDT features available to any client that supports the Language Server Protocol. This talk covers the changes, challenges and lessons learned while building the JDT LS. It will also provide insights to using and developing language servers and some tips to converting existing features. There will also be demos of JDT LS features on different editors and their comparision with the Eclipse JDT to give a better understanding of the possibilities and problems of language servers.&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/session/roll-your-own-development-environment-eclipse-orion&quot;&gt;Roll your own Development Environment with Eclipse Orion&lt;/a&gt;&lt;/h3&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/user/93&quot;&gt;Bogdan Gheorghe&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;Eclipse Orion is a cloud IDE that supports JavaScript development out of the box.  Recently, support for LSP (Language Server Protocol) has been added to the mix.  Come and learn how to create three different development environments using Docker, Orion and LSP (Language Sever Protocol).&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/RYV-7617/Introduction_to_Eclipse_Che&quot;&gt;Introduction to Eclipse Che&lt;/a&gt;&lt;/h3&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/stevan_le_meur&quot;&gt;Stévan Le Meur&lt;/a&gt; and &lt;a href=&quot;http://cfp.devoxx.us/2017/speaker/florent_benoit&quot;&gt;Florent Benoit&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;Eclipse Che introduces a new kind of workspace that is composed of projects and runtimes. This approach improves agile workflow and allows fast bootstrapping of developers. Eclipse Che can run locally or in the cloud which allow to scale the resources on-demand and benefit from high performances and resources.&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;In this session, we will explain how to setup a workspace cloud in Eclipse Che, how to create the environments using Docker, configure the tools that you need and register a set of commands to be executed in that workspace. We will show you how you can benefits from the workspace portability to easily share it onto another Che or to the cloud.&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;This session will also cover how Eclipse Che is providing support and intellisense for all the languages and explain the work did on the Language Server Protocol. The Language Server Protocol is a communication protocol between a tool and a Language Server than run all code analysis and operations&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.eclipseconverge.org/na2017/&quot;&gt;&lt;img alt=&quot;Eclipse Converge&quot; border=&quot;0&quot; src=&quot;https://www.eclipseconverge.org/na2017/sites/default/files/I%27M%20ATTENDING%20v1_0.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://devoxx.us/&quot;&gt;&lt;img alt=&quot;devoxx_black_transparent400&quot; class=&quot;alignnone size-medium wp-image-4416&quot; height=&quot;104&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/02/devoxx_black_transparent400.png?w=300&amp;amp;h=104&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/4445/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/4445/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=4445&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 01 Mar 2017 19:52:03 +0000</pubDate>
-</item>
-<item>
-	<title>Chris Aniszczyk: 2018 Eclipse Simultaneous Release Name: Photon</title>
-	<guid isPermaLink="false">http://aniszczyk.org/?p=4118</guid>
-	<link>http://aniszczyk.org/2017/03/01/eclipse-2018-simultaneous-release-name-photon/</link>
-	<description>&lt;p&gt;Hey Eclipse friends, as part of my duties on the &lt;a href=&quot;https://wiki.eclipse.org/Planning_Council&quot;&gt;Eclipse Planning Council&lt;/a&gt;, we have worked with the Eclipse Foundation EMO and wider community to finalize the Oxygen+1 simultaneous release name (see &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=510201&quot;&gt;bug 510201&lt;/a&gt; for details): &lt;strong&gt;Photon&lt;/strong&gt;&lt;/p&gt;
+	<title>Chris Aniszczyk: Starting an open source program office?</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4194</guid>
+	<link>http://aniszczyk.org/2018/02/08/starting-an-open-source-program-office/</link>
+	<description>&lt;p&gt;To make good on my new years resolutions of writing more, I recently wrote an &lt;a href=&quot;https://opensource.com/article/18/1/how-start-open-source-program-your-company&quot;&gt;article for opensource.com&lt;/a&gt; on starting an open source program for your company:&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;The 2018 Eclipse Simultaneous Release (Eclipse Oxygen +1) will be called *drum roll please*… Eclipse Photon! &lt;a href=&quot;https://t.co/wjK5wqNOPn&quot;&gt;https://t.co/wjK5wqNOPn&lt;/a&gt; &lt;a href=&quot;https://t.co/Bv6qahgJft&quot;&gt;pic.twitter.com/Bv6qahgJft&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Eclipse Foundation (@EclipseFdn) &lt;a href=&quot;https://twitter.com/EclipseFdn/status/836949295072935936&quot;&gt;March 1, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;How to start an &lt;a href=&quot;https://twitter.com/hashtag/opensource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opensource&lt;/a&gt; program in your company: &lt;a href=&quot;https://t.co/OZi3pyxEA5&quot;&gt;https://t.co/OZi3pyxEA5&lt;/a&gt; &lt;a href=&quot;https://t.co/5OYiQG8Vf8&quot;&gt;pic.twitter.com/5OYiQG8Vf8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Open Source Way (@opensourceway) &lt;a href=&quot;https://twitter.com/opensourceway/status/960898646748393472?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to everyone who voted in the community!&lt;/p&gt;</description>
-	<pubDate>Wed, 01 Mar 2017 17:27:30 +0000</pubDate>
+&lt;p&gt;Please check it out and let me know if you have any comments. I’d really like to see us build a future where more companies have formal open source programs, that’s a key path towards making open source sustainable for everyone.&lt;/p&gt;</description>
+	<pubDate>Thu, 08 Feb 2018 14:17:12 +0000</pubDate>
 </item>
 <item>
-	<title>Eclipse Announcements: Eclipse Converge &amp; Devoxx US are three weeks away - register now</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/yy4i_rSvYX8/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/yy4i_rSvYX8/</link>
-	<description>Join us March 20-24 in San Jose for an amazing developer conference.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/yy4i_rSvYX8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 01 Mar 2017 16:31:00 +0000</pubDate>
+	<title>itemis: Becoming Xtext Co-Project Lead</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/becoming-xtext-co-project-lead</guid>
+	<link>https://blogs.itemis.com/en/becoming-xtext-co-project-lead</link>
+	<description>&lt;p&gt;I started using Xtext more than 10 years ago. Back then it was a small part of the openArchitectureware framework. I began using it heavily after the move to Eclipse and got a power user and supporter in the newsgroups and forum. In 2016 I joined the Xtext Committer team and worked on the framework for about 50% of my time.&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Roughly at the same time &lt;a href=&quot;https://hosting.itemis.de/de/itemis-typefox-xtext&quot;&gt;parts of the Xtext team moved away from itemis&lt;/a&gt;. So the people working on Xtext and their main focus changed. I still think Xtext is a very valuable framework and it deserves more attention than it currently gets. This is why I stepped up to become a co-project lead for the project to ensure it's management is put on wider legs.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;img alt=&quot;whats-new&quot; height=&quot;462&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/whats-new.jpg?t=1517941087956&amp;amp;width=970&amp;amp;height=462&amp;amp;name=whats-new.jpg&quot; style=&quot;width: 970px;&quot; width=&quot;970&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;br /&gt;As Xtext committer and co-project lead my main goals are the following&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Ensure that Xtext and Xtend are actively maintained and will work with future versions of the Eclipse Platform and JDT as well as with future versions of Java itself (for example the Java 9 support we are currently working on).&lt;/li&gt; 
+ &lt;li&gt;Relevant bugs and performance problems keep being addressed and fixed in a reasonable manner and timespan.&lt;/li&gt; 
+ &lt;li&gt;Enable more users to contribute to Xtext.&lt;/li&gt; 
+ &lt;li&gt;Develop new features that make life of our users more easy and keep track with trends and developments inside and outside the Eclipse ecosystem.&lt;/li&gt; 
+ &lt;li&gt;Make sure Xtext in future still will be supported and running smooth in standalone modes such as LSP as well as inside Eclipse IDE.&lt;/li&gt; 
+ &lt;li&gt;Make sure we have regular releases and keep track with the release process that is currently planned for Eclipse platform but we may slow down from the release cadence you are used from the past.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;It is not only the TypeFox guys or &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;our Xtext-Team at itemis&lt;/a&gt; (Karsten, Sebastian, Holger and other colleagues) that drive Xtext. I invite you as Xtext community to actively contribute to the framework: Not only by filing bugs or giving feedback but i warmly welcome everybody who is willing to contribute fixes or features to Xtext. Get in contact with us and let us work together on a great future for Xtext.&lt;/p&gt; 
+&lt;p&gt; &lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fbecoming-xtext-co-project-lead&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 07 Feb 2018 09:07:40 +0000</pubDate>
+	<author>dietrich@itemis.de (Christian Dietrich)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: EE.next working group | Community review process</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/s5OSPunAH5k/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/s5OSPunAH5k/</link>
+	<description>Announcing the EE.next working group to support the EE4J projects. Join the review process of the charter.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/s5OSPunAH5k&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 06 Feb 2018 13:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: Introducing the EE.next Working Group</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1429</guid>
+	<link>https://mmilinkov.wordpress.com/2018/02/05/introducing-the-ee-next-working-group/</link>
+	<description>&lt;p&gt;As part of our continuing adventures in &lt;a href=&quot;https://mmilinkov.wordpress.com/2018/01/23/ee4j-current-status-and-whats-next/&quot;&gt;migrating Java EE to the Eclipse Foundation&lt;/a&gt; I am pleased to announce that the draft of the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/eclipse_ee_next_charter.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;EE.next Working Group charter&lt;/a&gt;  has now been posted for community review. Comments and feedback are welcomed on the &lt;a href=&quot;mailto:ee4j-community@eclipse.org&quot;&gt;ee4j-community@eclipse.org&lt;/a&gt; mail list. But please please pretty please make sure you read the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/eclipse_ee_next_faq.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;FAQ&lt;/a&gt; (also copied below) before you do.&lt;/p&gt;
+&lt;p&gt;You can think of this EE.next group as the replacement for the Java Community Process for Java EE. It will be the body that the ecosystem can join and participate in at a corporate level. Individuals can also join if they are committers on EE4J projects. EE.next will also be the place where the new specification process will be created and managed, and where specs will be reviewed and approved.&lt;/p&gt;
+&lt;p&gt;Under the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/industry_wg_process.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;process&lt;/a&gt; for establishing Eclipse Foundation working groups, there will now be a community review period lasting a minimum of 30 days.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1&gt;FAQ&lt;/h1&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What is the purpose of a working group?&lt;/h2&gt;
+&lt;p&gt;An Eclipse Foundation working group is a special-purpose consortia of Eclipse Members interested in supporting a technology domain. They are intended to complement the activities of a collection of Eclipse Foundation open source projects. Open source projects are excellent for many things, but they typically do not do a great job with activities such as marketing, branding, specification and compliance processes, and the like.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What is the role of the PMC versus the working group or the working group Steering Committee?&lt;/h2&gt;
+&lt;p&gt;Eclipse Foundation projects are self-governing meritocracies that set their own technical agendas and plans. The Project Management Committee for an Eclipse top-level project oversees the day-to-day activities of its projects through activities such as reviewing and approving plans, accepting new projects, approving releases, managing committer elections, and the like.&lt;/p&gt;
+&lt;p&gt;Working groups and their steering committees are intended to complement the work happening in the open source projects with activities that lead to greater adoption, market presence, and momentum. Specifically the role of the working group is to foster the creation and growth of the ecosystem that surrounds the projects.&lt;/p&gt;
+&lt;p&gt;Working groups do not direct the activities of the projects or their PMC. They are intended to be peer organizations that work in close collaboration with one another.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Who defines and manages technical direction?&lt;/h2&gt;
+&lt;p&gt;The projects manage their technical direction. The PMC may elect to coordinate the activities of multiple projects to facilitate the release of software platforms, for example.&lt;/p&gt;
+&lt;p&gt;Because the creation of roadmaps and long term release plans can require market analysis, requirements gathering, and resource commitments from member companies, the working group may sponsor complementary activities to generate these plans. However, ultimately it is up to the projects to agree to implement these plans or roadmaps. The best way for a working group to influence the direction of the open source projects is to ensure that they have adequate resources. This can take the form of developer contributions, or under the &lt;a href=&quot;https://staging.eclipse.org/org/workinggroups/mfi_program.php&quot;&gt;Member Funded Initiatives programs&lt;/a&gt;, working groups can pool funds to contract developers to implement the features they desire.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Why are there so many levels of membership?&lt;/h2&gt;
+&lt;p&gt;Because the Java EE ecosystem is a big place, and we want to ensure that there are roles for all of the players in it. We see the roles of the various member classes to roughly align as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strategic members are the vendors that deliver Java EE implementations. As such they are typically putting in the largest number of contributors, and are leading many of the projects.&lt;/li&gt;
+&lt;li&gt;Influencer members are the large enterprises that rely upon Java EE today for their mission critical application infrastructure, and who are looking to EE.next to deliver the next generation of cloud native Java. They have made strategic investments in this technology, have a massive skills investment in their developers, and want to protect these investments as well as influence the future of this technology.&lt;/li&gt;
+&lt;li&gt;Participant members are the companies that offer complementary products and services within the Java EE ecosystem. Examples include ISVs which build products on Java EE, or system integrators that use these technologies in delivering solutions to their customers.&lt;/li&gt;
+&lt;li&gt;Committer members are comprised of the committers working on the various EE4J projects who are also members of the Eclipse Foundation. While the &lt;a href=&quot;https://staging.eclipse.org/org/documents/&quot;&gt;Eclipse bylaws&lt;/a&gt; define the criteria for committers to be considered members, in essence any committer members are either a) a committer who is an employee of an EE.next member company or b) any other committer who has explicitly chosen to join as a member. Giving Committer members a role in the working group governance process mimics the governance structure of the Eclipse Foundation itself, where giving committers an explicit voice has been invaluable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What makes this different from the Java Community Process (JCP)?&lt;/h2&gt;
+&lt;p&gt;The EE.next working group will be the successor organization to the JCP for the family of technologies formerly known as Java EE. It has several features that make it a worthy successor to the JCP:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is vendor neutral. The JCP was owned and operated first by Sun and later by Oracle. EE.next is designed to be inclusive and diverse, with no organization having any special roles or rights.&lt;/li&gt;
+&lt;li&gt;It has open intellectual property flows. At the JCP, all IP flowed to the Spec Lead, which was typically Oracle. We are still working out the exact details, but the IP rights with EE.next and EE4J will certainly not be controlled by any for-profit entity.&lt;/li&gt;
+&lt;li&gt;It is more agile. This is an opportunity to define a 21st century workflow for creating rapidly evolving Java-based technologies. We will be merging the best practices from open source with what we have learned from over 15 years of JCP experience.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Is the WG steering committee roughly equivalent to the JCP Executive Committee?&lt;/h2&gt;
+&lt;p&gt;No, not really. The JCP EC always had two mixed roles: as a technical body overseeing the specification process, and as an ecosystem governance body promoting Java ME, SE, and EE. In EE.next the Steering Committee will be the overall ecosystem governance body. The EE.next Specification Committee will focus solely on the development and smooth operation of the technical specification process.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Does a project have to be approved as a spec before it can start?&lt;/h2&gt;
+&lt;p&gt;That is actually a decision which will be made by the EE4J PMC, not the working group. However, it is a goal of the people and organizations working on creating this working group that the Java EE community move to more of a code-first culture. We anticipate and hope that the EE4J PMC will embrace the incubation of technologies under its banner. Once a technology has been successfully implemented and adopted by at least some in the industry, it can then propose that a specification be created for it.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;In addition to the Steering Committee, what other committees exist?&lt;/h2&gt;
+&lt;p&gt;There are four committees comprising the EE.next governance structure – the Steering Committee, the Specification Committee, the Marketing and Brand Committee, and the Enterprise Requirements Committee. A summary of the make-up of each of the committees is in the table below.&lt;/p&gt;
+&lt;table class=&quot;table&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Strategic Member&lt;/th&gt;
+&lt;th&gt;Influencer Member&lt;/th&gt;
+&lt;th&gt;Participant Member&lt;/th&gt;
+&lt;th&gt;Committer Member&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Steering Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Specification Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Marketing Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Enterprise Requirements Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+	<pubDate>Mon, 05 Feb 2018 19:43:02 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: In 5 Minuten zur DSL mit transitiven Importen in Xtext</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/de/in-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext</guid>
+	<link>https://blogs.itemis.com/de/in-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Xtext ermöglicht das Referenzieren von Elementen in DSLs auf mehrere Arten. Eine Möglichkeit sieht den Import von Elementen über Namensräume vor. Dies geschieht über die Verwendung des &lt;/span&gt;&lt;code&gt;ImportedNamespaceAwareLocalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; und erlaubt den &quot;Import&quot; einzelner oder, unter Einsatz von Wildcards (&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.*&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), aller Elemente eines Namensraumes.&lt;/span&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Es kann aber Sprachen geben, in denen dieses Verhalten nicht gewünscht ist. In diesen Sprachen importiert der Nutzer explizit eine oder mehrere Ressource-Dateien, um auf deren Inhalte zugreifen zu können.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eine einfache DSL mit Import-Verhalten dank Xtext&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eine DSL mit einem solchen Import-Verhalten lässt sich mit https://www.itemis.com/en/xtext/ recht einfach erstellen, indem man eine Parser-Regel mit dem speziellen Attributnamen &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;Xtext&lt;/a&gt;&lt;/span&gt;&lt;code&gt;importURI&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in die DSL einbaut. Das folgende Beispiel stellt eine einfache DSL dar, die es erlaubt, in beliebigen Ressourcen Namen zu definieren und diese in Grußbotschaften zu verwenden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+generate myDsl &quot;http://www.xtext.org/example/mydsl/MyDsl&quot;
+Model:
+	includes+=Include*
+	names+=Name*
+	greetings+=Greeting*;
+Include:
+	'import' importURI=STRING
+	;
+Name:
+	'def' name=ID
+	;
+Greeting:
+	'Hallo' name=[Name] '!'
+	;&lt;/pre&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wir möchten Kollegen aus unserer Firma Grußbotschaften schicken. Da die Firma aber groß ist und aus vielen Kollegen besteht, die in unterschiedlichen Bereichen arbeiten, möchten wir für jeden Firmenbereich eine eigene Datei erstellen, die die Namen der jeweiligen Kollegen enthält. Dies erhöht die Übersicht und Wartbarkeit.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Nur durch einen expliziten Import einer Ressource wollen wir die enthaltenen Namensdefinitionen in den Scope aufnehmen. Dabei soll dies möglichst schnell und ressourcenschonend erfolgen.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Der Ansatz ist hierbei, die Verwendung des Index, die das unnötige und (bei großen Modellen) zeitaufwendige Laden von Ressourcen überflüssig macht. Als ersten Schritt müssen wir die Informationen bzgl. der importierten Ressourcen in den Index schreiben. Dazu implementieren wir eine Klasse &lt;/span&gt;&lt;code&gt;MyDslResourceDescriptionStrategy&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, die von &lt;/span&gt;&lt;code&gt;DefaultResourceDescriptionStrategy&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; ableitet. Die Strings mit den URIs, der in der Parser-Regel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Model&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; importierten Ressourcen, werden in einen durch Kommas getrennten String zusammengeführt und unter dem Schlüssel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;includes&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in der &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;userData&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Map der Objektbeschreibung im Index gespeichert.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl
+
+import com.google.inject.Inject
+import java.util.HashMap
+import org.eclipse.xtext.naming.QualifiedName
+import org.eclipse.xtext.resource.EObjectDescription
+import org.eclipse.xtext.resource.IEObjectDescription
+import org.eclipse.xtext.resource.impl.DefaultResourceDescriptionStrategy
+import org.eclipse.xtext.scoping.impl.ImportUriResolver
+import org.eclipse.xtext.util.IAcceptor
+import org.xtext.example.mydsl.myDsl.Model
+import org.eclipse.emf.ecore.EObject
+
+class MyDslResourceDescriptionStrategy extends DefaultResourceDescriptionStrategy {
+	public static final String INCLUDES = &quot;includes&quot;
+	@Inject
+	ImportUriResolver uriResolver
+
+	override createEObjectDescriptions(EObject eObject, IAcceptor acceptor) {
+		if(eObject instanceof Model) {
+			this.createEObjectDescriptionForModel(eObject, acceptor)
+			return true
+		}
+		else {
+			super.createEObjectDescriptions(eObject, acceptor)
+		}
+	}
+
+	def void createEObjectDescriptionForModel(Model model, IAcceptor acceptor) {
+		val uris = newArrayList()
+		model.includes.forEach[uris.add(uriResolver.apply(it))]
+		val userData = new HashMap&amp;lt;string,string&amp;gt;
+		userData.put(INCLUDES, uris.join(&quot;,&quot;))
+		acceptor.accept(EObjectDescription.create(QualifiedName.create(model.eResource.URI.toString), model, userData))
+	}
+}&lt;/pre&gt; 
+&lt;br /&gt; Um unsere ResourceDescriptionStrategy nutzen zu können, müssen wir sie noch im MyDslRuntimeModule binden. 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl&lt;br /&gt;&lt;br /&gt;import org.eclipse.xtext.resource.IDefaultResourceDescriptionStrategy&lt;br /&gt;import org.eclipse.xtext.scoping.IGlobalScopeProvider&lt;br /&gt;import org.xtext.example.mydsl.scoping.MyDslGlobalScopeProvider&lt;br /&gt;&lt;br /&gt;class MyDslRuntimeModule extends AbstractMyDslRuntimeModule {&lt;br /&gt; def Class&amp;lt;? extends IDefaultResourceDescriptionStrategy&amp;gt; bindIDefaultResourceDescriptionStrategy() {&lt;br /&gt; MyDslResourceDescriptionStrategy&lt;br /&gt; }&lt;br /&gt;}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Bisher haben wir nur Informationen gesammelt und im Index gespeichert. Um sie verwenden zu können, benötigen wir zusätzlich einen eigenen &lt;/span&gt;&lt;code&gt;IGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Dazu implementieren wir eine Klasse &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, die von &lt;/span&gt;&lt;code&gt;ImportUriGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; ableitet, und überschreiben die Methode &lt;/span&gt;&lt;code&gt;getImportedUris(Resource resource)&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Diese Methode liefert ein &lt;/span&gt;&lt;code&gt;LinkedHashSet&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; zurück, das letztendlich alle URIs enthält, die in der Ressource importiert werden sollen.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das Auslesen der importierten Ressourcen aus dem Index wird von der Methode &lt;/span&gt;&lt;code&gt;collectImportUris&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; erledigt. Die Methode fragt den &lt;/span&gt;&lt;code&gt;IResourceDescription.Manager&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; nach der &lt;/span&gt;&lt;code&gt;IResourceDescription&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; der Ressource. Aus dieser wird für jedes &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Model&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;-Element aus der &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;userData&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Map der unter dem Schlüssel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;includes&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; gespeicherte String mit den URIs der importierten Ressourcen ausgelesen, zerlegt und die einzelnen URIs in einem Set gespeichert.&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl.scoping
+
+import com.google.common.base.Splitter
+import com.google.inject.Inject
+import com.google.inject.Provider
+import java.util.LinkedHashSet
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.EcoreUtil2
+import org.eclipse.xtext.resource.IResourceDescription
+import org.eclipse.xtext.scoping.impl.ImportUriGlobalScopeProvider
+import org.eclipse.xtext.util.IResourceScopeCache
+import org.xtext.example.mydsl.MyDslResourceDescriptionStrategy
+import org.xtext.example.mydsl.myDsl.MyDslPackage
+
+class MyDslGlobalScopeProvider extends ImportUriGlobalScopeProvider {
+	private static final Splitter SPLITTER = Splitter.on(',');
+
+	@Inject
+	IResourceDescription.Manager descriptionManager;
+
+	@Inject
+	IResourceScopeCache cache;
+
+	override protected getImportedUris(Resource resource) {
+		return cache.get(MyDslGlobalScopeProvider.getSimpleName(), resource, new Provider&amp;lt;linkedhashset&amp;gt;() {
+			override get() {
+				val uniqueImportURIs = collectImportUris(resource, new LinkedHashSet(5))
+
+				val uriIter = uniqueImportURIs.iterator()
+				while(uriIter.hasNext()) {
+					if (!EcoreUtil2.isValidUri(resource, uriIter.next()))
+						uriIter.remove()
+				}
+				return uniqueImportURIs
+			}
+
+			def LinkedHashSet collectImportUris(Resource resource, LinkedHashSet uniqueImportURIs) {
+				val resourceDescription = descriptionManager.getResourceDescription(resource)
+				val models = resourceDescription.getExportedObjectsByType(MyDslPackage.Literals.MODEL)
+				
+				models.forEach[
+					val userData = getUserData(MyDslResourceDescriptionStrategy.INCLUDES)
+					if(userData !== null) {
+						SPLITTER.split(userData).forEach[uri |
+							var includedUri = URI.createURI(uri)
+							includedUri = includedUri.resolve(resource.URI)
+							uniqueImportURIs.add(includedUri)
+						]
+					}
+				]
+				return uniqueImportURIs
+			}
+		});
+	}
+}
+&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Um unseren &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; nutzen zu können, müssen wir diesen wiederum im &lt;/span&gt;&lt;code&gt;MyDslRuntimeModule&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; binden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl
+
+import org.eclipse.xtext.resource.IDefaultResourceDescriptionStrategy
+import org.eclipse.xtext.scoping.IGlobalScopeProvider
+import org.xtext.example.mydsl.scoping.MyDslGlobalScopeProvider
+
+class MyDslRuntimeModule extends AbstractMyDslRuntimeModule {
+	def Class bindIDefaultResourceDescriptionStrategy() {
+		MyDslResourceDescriptionStrategy
+	}
+	override Class bindIGlobalScopeProvider() {
+		MyDslGlobalScopeProvider;
+	}
+}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wir starten den Editor für unsere kleine Sprache und beginnen die Modell-Dateien zu erstellen. Dabei haben wir die Idee, die Ressourcen der unterschiedlichen Firmenbereiche nicht einzeln zu importieren, sondern eine Ressource zu erstellen, die alle Importe enthält, und diese dann zu importieren. Dazu erstellen wir folgende Ressourcen:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;Ressourcen-Agile.png&quot; height=&quot;85&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressourcen-Agile.png?t=1517941087956&amp;amp;width=724&amp;amp;height=85&amp;amp;name=Ressourcen-Agile.png&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt; &lt;img alt=&quot;Ressourcen-Xtext.png&quot; height=&quot;84&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressourcen-Xtext.png?t=1517941087956&amp;amp;width=724&amp;amp;height=84&amp;amp;name=Ressourcen-Xtext.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img alt=&quot;Ressource-Kollegen.png&quot; height=&quot;87&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressource-Kollegen.png?t=1517941087956&amp;amp;width=724&amp;amp;height=87&amp;amp;name=Ressource-Kollegen.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Beim Erstellen der Ressource mit den Grußbotschaften stellen wir fest, dass die Namen nicht aufgelößt werden können.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;Ressource-Greetings.png&quot; height=&quot;200&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressource-Greetings.png?t=1517941087956&amp;amp;width=724&amp;amp;height=200&amp;amp;name=Ressource-Greetings.png&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Woran liegt das? Wir haben doch alle importierten Ressourcen in den Index geschrieben.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das ist soweit richtig. Alle direkt importieren Ressourcen werden in den Index geschrieben. Die Importe in einer importierten Ressource jedoch werden ignoriert. Das von uns gewünschte Feature bezeichnet man als transitive Importe. Mit dem Import einer Ressource werden implizit alle von ihr importierten Ressourcen mit importiert.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Um in unserer Sprache transitive Importe zu ermöglichen, müssen wir unseren &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; anpassen. Statt die URI einer importierten Ressource nur in dem Set zu speichern, rufen wir zusätzlich die Methode &lt;/span&gt;&lt;code&gt;collectImportUris&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; auf und übergeben die URI als Parameter, sodass deren importierte Ressourcen ebenfalls verarbeitet werden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl.scoping
+
+import com.google.common.base.Splitter
+import com.google.inject.Inject
+import com.google.inject.Provider
+import java.util.LinkedHashSet
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.EcoreUtil2
+import org.eclipse.xtext.resource.IResourceDescription
+import org.eclipse.xtext.scoping.impl.ImportUriGlobalScopeProvider
+import org.eclipse.xtext.util.IResourceScopeCache
+import org.xtext.example.mydsl.MyDslResourceDescriptionStrategy
+import org.xtext.example.mydsl.myDsl.MyDslPackage
+
+class MyDslGlobalScopeProvider extends ImportUriGlobalScopeProvider {
+	private static final Splitter SPLITTER = Splitter.on(',');
+
+	@Inject
+	IResourceDescription.Manager descriptionManager;
+
+	@Inject
+	IResourceScopeCache cache;
+
+	override protected getImportedUris(Resource resource) {
+		return cache.get(MyDslGlobalScopeProvider.getSimpleName(), resource, new Provider&amp;lt;linkedhashset&amp;gt;() {
+			override get() {
+				val uniqueImportURIs = collectImportUris(resource, new LinkedHashSet(5))
+
+				val uriIter = uniqueImportURIs.iterator()
+				while(uriIter.hasNext()) {
+					if (!EcoreUtil2.isValidUri(resource, uriIter.next()))
+						uriIter.remove()
+				}
+				return uniqueImportURIs
+			}
+
+			def LinkedHashSet collectImportUris(Resource resource, LinkedHashSet uniqueImportURIs) {
+				val resourceDescription = descriptionManager.getResourceDescription(resource)
+				val models = resourceDescription.getExportedObjectsByType(MyDslPackage.Literals.MODEL)
+				
+				models.forEach[
+					val userData = getUserData(MyDslResourceDescriptionStrategy.INCLUDES)
+					if(userData !== null) {
+						SPLITTER.split(userData).forEach[uri |
+							var includedUri = URI.createURI(uri)
+							includedUri = includedUri.resolve(resource.URI)
+							if(uniqueImportURIs.add(includedUri)) {
+								collectImportUris(resource.getResourceSet().getResource(includedUri, true), uniqueImportURIs)
+							}
+						]
+					}
+				]
+				
+				return uniqueImportURIs
+			}
+		});
+	}
+}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wenn wir nach dieser kleinen Anpassung unsere Ressource mit den Grußbotschaften erneut öffnen sehen wir, dass die Namen durch die transitiven Importe aufgelöst werden können.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das Beispielprojekt kann &lt;/span&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/tree/transitive_imports/sources&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;hier&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; heruntergeladen werden.&lt;/span&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fde%2Fin-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Feb 2018 14:51:00 +0000</pubDate>
+	<author>cwehrheim@itemis.de (Christian Wehrheim)</author>
+</item>
+<item>
+	<title>Jeremie Bresson: Use the eclipse-settings-maven-plugin to synchronize prefs files across projects</title>
+	<guid isPermaLink="true">http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</guid>
+	<link>http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</link>
+	<description>&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;The question « &lt;em&gt;Should the meta files related to an IDE be committed in the git repository?&lt;/em&gt; » is a never-ending fight. According to &lt;a href=&quot;https://twitter.com/apupier&quot;&gt;Aurelien Pupier&lt;/a&gt;, the answer to this question is YES (&lt;a href=&quot;https://www.eclipsecon.org/europe2015/comment/628.html&quot;&gt;Talk&lt;/a&gt; from 2015 - &lt;a href=&quot;https://www.slideshare.net/AurelienPupier/committing-ide-meta-files-misconceptions-misunderstandings-and-solutions&quot;&gt;slides&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=J5RzSbpNLM4&quot;&gt;video&lt;/a&gt;). I totally agree with him, because settings files like &lt;code&gt;org.eclipse.core.resources.prefs&lt;/code&gt;, &lt;code&gt;org.eclipse.jdt.core.prefs&lt;/code&gt;, &lt;code&gt;org.eclipse.jdt.ui.prefs&lt;/code&gt; or &lt;code&gt;org.eclipse.m2e.core.prefs&lt;/code&gt; can contain valuable configuration information that will be shared between all Eclipse IDE users working on the project: code formatting rules, save actions, automated code cleanup tasks, compiler settings…&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;Enable project specific settings&quot; src=&quot;http://jmini.github.io/blog/2018/2018-02-05_enable_project_specific_settings.png&quot; /&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;Even today a lot of people still prefer not to have the IDE metadata files in their git Repository. This means that every coworker needs to configure his IDE and more important everybody needs to keep the configuration in sync with the team over the time.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;In both cases (having the settings files in your repo or not), the &lt;a href=&quot;https://github.com/BSI-Business-Systems-Integration-AG/eclipse-settings-maven-plugin&quot;&gt;eclipse-settings-maven-plugin&lt;/a&gt; can be interesting for you. The idea is to use maven in order to replicate the same prefs files across multiple maven modules. This way you can distribute the prefs file if they are missing in the git repository. An other use case is the distribution accros multiple teams (for example at organization level).&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;The source for the settings file is a simple maven artifact located in a maven repository. With a single maven command, you can synchronize the prefs files.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;Using eclipse-settings-maven-plugin to copy prefs files&quot; src=&quot;http://jmini.github.io/blog/2018/2018-02-05_sync_eclipse-settings.png&quot; /&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;If you wants to see how the setup looks like, you can refer to my &lt;a href=&quot;https://jmini.github.io/sync-eclipse-settings-example/&quot;&gt;sync-eclipse-settings-example&lt;/a&gt; page and the associated GitHub project. I have updated it in order to use the latest version published last week by my former colleagues at BSI Business Systems Integration AG.&lt;/p&gt; 
+&lt;/div&gt;</description>
+	<pubDate>Sun, 04 Feb 2018 23:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Last Week to Submit for FOSS4G NA 2018!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/djLr8W3gbZQ/cfp</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/djLr8W3gbZQ/cfp</link>
+	<description>Submissions close Feb 8, so propose your talk now for FOSS4G NA 2018, May 14-16 in St. Louis&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/djLr8W3gbZQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 02 Feb 2018 13:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: The Sum of all Reductions</title>
+	<guid isPermaLink="false">https://medium.com/p/d46dfd334704</guid>
+	<link>https://medium.com/@donraab/the-sum-of-all-reductions-d46dfd334704?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;The reduction of all sums&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*4V0JpvDWE8rlqhN2A21u5w.png&quot; /&gt;Belmar, NJ during the Deep Freeze of 2018&lt;/figure&gt;&lt;p&gt;During the Deep Freeze of 2018, everything in the world seemed to be reduced to ice and snow, including the sky. Even the sun seemed to be reduced as it ran away from my camera with a shiver.&lt;/p&gt;&lt;p&gt;This got me thinking about different kinds of reductions we have available in Java with &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt; and Java Streams. I wondered how many ways we could define &lt;em&gt;sum&lt;/em&gt; with the various methods available.&lt;/p&gt;&lt;h4&gt;Summing an array of ints&lt;/h4&gt;&lt;p&gt;Let’s consider several ways we can sum the values in an int array in Java.&lt;/p&gt;&lt;p&gt;Here is the data we will use.&lt;/p&gt;&lt;pre&gt;int[] ints = {1, 2, 3, 4, 5};&lt;/pre&gt;&lt;pre&gt;// This supplier will generate an IntStream on demand&lt;br /&gt;Supplier&amp;lt;IntStream&amp;gt; intStream = () -&amp;gt; Arrays.&lt;em&gt;stream&lt;/em&gt;(&lt;em&gt;ints&lt;/em&gt;);&lt;/pre&gt;&lt;pre&gt;// This creates an IntList from Eclipse Collections&lt;br /&gt;IntList intList = IntLists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(ints);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;For Loop&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;int &lt;strong&gt;sumForLoop &lt;/strong&gt;= 0;&lt;br /&gt;for (int &lt;strong&gt;i &lt;/strong&gt;= 0; &lt;strong&gt;i &lt;/strong&gt;&amp;lt; ints.length; &lt;strong&gt;i&lt;/strong&gt;++)&lt;br /&gt;{&lt;br /&gt;    &lt;strong&gt;sumForLoop &lt;/strong&gt;+= ints[&lt;strong&gt;i&lt;/strong&gt;];&lt;br /&gt;}&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, &lt;strong&gt;sumForLoop&lt;/strong&gt;);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;forEach&lt;/strong&gt; (IntStream) / &lt;strong&gt;each&lt;/strong&gt; (IntList)&lt;/p&gt;&lt;pre&gt;// sumForEach will be effectively final&lt;br /&gt;int[] sumForEach = {0};&lt;br /&gt;intStream.get().forEach(e -&amp;gt; &lt;em&gt;sumForEach&lt;/em&gt;[0] += e);&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sumForEach[0]);&lt;/pre&gt;&lt;pre&gt;// sumEach will be effectively final&lt;br /&gt;int[] sumEach = {0};&lt;br /&gt;intList.each(e -&amp;gt; &lt;em&gt;sumEach&lt;/em&gt;[0] += e);&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sumEach[0]);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;injectInto&lt;/strong&gt; (IntList)&lt;/p&gt;&lt;pre&gt;// injectInto boxes on IntList as there is no primitive version&lt;br /&gt;int sumInject = &lt;br /&gt;    intList.injectInto(Integer.&lt;em&gt;valueOf&lt;/em&gt;(0), Integer::&lt;em&gt;sum&lt;/em&gt;).intValue();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sumInject);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;reduce&lt;/strong&gt; (IntStream)&lt;/p&gt;&lt;pre&gt;// reduce does not box on IntStream&lt;br /&gt;int sumReduce = &lt;br /&gt;    intStream.get().reduce(Integer::&lt;em&gt;sum&lt;/em&gt;).getAsInt();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sumReduce);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;sum&lt;/strong&gt; (IntStream / IntList)&lt;/p&gt;&lt;pre&gt;int sum1 = intStream.get().sum();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sum1);&lt;br /&gt;&lt;br /&gt;long sum2 = intList.sum();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, sum2);&lt;/pre&gt;&lt;p&gt;Clearly, the &lt;em&gt;sum&lt;/em&gt; methods available on IntStream and IntList are the simplest solutions. The minor difference with IntList is that the result is widened to a long which means you can add very large ints without overflowing.&lt;/p&gt;&lt;h4&gt;Summarizing an array of ints&lt;/h4&gt;&lt;p&gt;When we summarize using the IntSummaryStatistics class that was added in Java 8, we get the count, sum, min, max and average calculated at the same time. This saves you from iterating multiple times. We will use the same data as before.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;For Loop&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;IntSummaryStatistics statsForLoop = new IntSummaryStatistics();&lt;br /&gt;for (int &lt;strong&gt;i &lt;/strong&gt;= 0; &lt;strong&gt;i &lt;/strong&gt;&amp;lt; ints.length; &lt;strong&gt;i&lt;/strong&gt;++)&lt;br /&gt;{&lt;br /&gt;    statsForLoop.accept(ints[&lt;strong&gt;i&lt;/strong&gt;]);&lt;br /&gt;}&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, statsForLoop.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, statsForLoop.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, statsForLoop.getMax());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;forEach&lt;/strong&gt; (IntStream) / &lt;strong&gt;each&lt;/strong&gt; (IntList)&lt;/p&gt;&lt;pre&gt;IntSummaryStatistics statsForEach = new IntSummaryStatistics();&lt;br /&gt;intStream.get().forEach(statsForEach::accept);&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, statsForEach.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, statsForEach.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, statsForEach.getMax());&lt;br /&gt;&lt;br /&gt;IntSummaryStatistics statsEach = new IntSummaryStatistics();&lt;br /&gt;intList.each(statsEach::accept);&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, statsEach.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, statsEach.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, statsEach.getMax());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;injectInto&lt;/strong&gt; (IntList)&lt;/p&gt;&lt;pre&gt;IntSummaryStatistics statsInject =&lt;br /&gt;        intList.injectInto(&lt;br /&gt;            new IntSummaryStatistics(), &lt;br /&gt;            (iss, each) -&amp;gt; {iss.accept(each); return iss;});&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, statsInject.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, statsInject.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, statsInject.getMax());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (IntStream)&lt;/p&gt;&lt;pre&gt;IntSummaryStatistics statsCollect =&lt;br /&gt;        intStream.get().collect(&lt;br /&gt;            IntSummaryStatistics::new, &lt;br /&gt;            IntSummaryStatistics::accept, &lt;br /&gt;            IntSummaryStatistics::combine);&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, statsCollect.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, statsCollect.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, statsCollect.getMax());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I could not use reduce because both parameters have to be the same type. I had to use collect instead, which is a mutable reduction. The collect method on primitive Streams does not take a Collector, but instead takes a Supplier, ObjectIntConsumer (accumulator) and a BiConsumer (combiner).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;summaryStatistics&lt;/strong&gt; (IntStream / IntList)&lt;/p&gt;&lt;pre&gt;IntSummaryStatistics stats1 = intStream.get().summaryStatistics();&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, stats1.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, stats1.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, stats1.getMax());&lt;br /&gt;&lt;br /&gt;IntSummaryStatistics stats2 = intList.summaryStatistics();&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(15, stats2.getSum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, stats2.getMin());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(5, stats2.getMax());&lt;/pre&gt;&lt;p&gt;Again, the &lt;em&gt;summaryStatistics&lt;/em&gt; methods are the simplest solutions.&lt;/p&gt;&lt;h4&gt;Summing the lengths of an array of Strings&lt;/h4&gt;&lt;p&gt;Let’s say we want to sum the lengths of Strings in an array. This approach could be used for summing any int attribute of an object.&lt;/p&gt;&lt;p&gt;Here is the data we will use.&lt;/p&gt;&lt;pre&gt;String[] words = {&lt;strong&gt;&quot;The&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;};&lt;br /&gt;&lt;br /&gt;Supplier&amp;lt;Stream&amp;lt;String&amp;gt;&amp;gt; stream = () -&amp;gt; Stream.&lt;em&gt;of&lt;/em&gt;(&lt;em&gt;words&lt;/em&gt;);&lt;/pre&gt;&lt;pre&gt;ImmutableList&amp;lt;String&amp;gt; list = Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(words);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt; &lt;strong&gt;Loop&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;int &lt;strong&gt;sumForLoop &lt;/strong&gt;= 0;&lt;br /&gt;for (int &lt;strong&gt;i &lt;/strong&gt;= 0; &lt;strong&gt;i &lt;/strong&gt;&amp;lt; words.length; &lt;strong&gt;i&lt;/strong&gt;++)&lt;br /&gt;{&lt;br /&gt;    &lt;strong&gt;sumForLoop &lt;/strong&gt;+= words[&lt;strong&gt;i&lt;/strong&gt;].length();&lt;br /&gt;}&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, &lt;strong&gt;sumForLoop&lt;/strong&gt;);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt; &lt;strong&gt;Each&lt;/strong&gt; (Stream) / &lt;strong&gt;each&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;int[] sumForEach = {0};&lt;br /&gt;stream.get().forEach(e -&amp;gt; &lt;em&gt;sumForEach&lt;/em&gt;[0] += e.length());&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumForEach[0]);&lt;br /&gt;&lt;br /&gt;int[] sumEach = {0};&lt;br /&gt;list.each(e -&amp;gt; &lt;em&gt;sumEach&lt;/em&gt;[0] += e.length());&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumEach[0]);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collectInt&lt;/strong&gt; (ImmutableList)+ &lt;strong&gt;injectInto&lt;/strong&gt; (IntList)&lt;/p&gt;&lt;pre&gt;int sumInject = list&lt;br /&gt;        .collectInt(String::length)&lt;br /&gt;        .injectInto(Integer.&lt;em&gt;valueOf&lt;/em&gt;(0), Integer::&lt;em&gt;sum&lt;/em&gt;)&lt;br /&gt;        .intValue();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumInject);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (Stream) + &lt;strong&gt;reducing&lt;/strong&gt; (Collectors)&lt;/p&gt;&lt;pre&gt;int sumReducing = stream.get()&lt;br /&gt;        .collect(Collectors.&lt;em&gt;reducing&lt;/em&gt;(0,&lt;br /&gt;                String::length,&lt;br /&gt;                Integer::&lt;em&gt;sum&lt;/em&gt;)).intValue();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumReduce);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;mapToInt&lt;/strong&gt; (Stream) + &lt;strong&gt;Reduce&lt;/strong&gt; (IntStream)&lt;/p&gt;&lt;pre&gt;int sumReduce = stream.get()&lt;br /&gt;        .mapToInt(String::length)&lt;br /&gt;        .reduce(Integer::&lt;em&gt;sum&lt;/em&gt;)&lt;br /&gt;        .getAsInt();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumReduce);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;mapToInt&lt;/strong&gt; (Stream) + &lt;strong&gt;sum&lt;/strong&gt; (IntStream)&lt;/p&gt;&lt;pre&gt;int sum1 = stream.get()&lt;br /&gt;        .mapToInt(String::length)&lt;br /&gt;        .sum();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sum1);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collectInt&lt;/strong&gt; (ImmutableList) + &lt;strong&gt;sum &lt;/strong&gt;(IntList)&lt;/p&gt;&lt;pre&gt;long sum2 = list&lt;br /&gt;        .collectInt(String::length)&lt;br /&gt;        .sum();&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sum2);&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (Stream) + &lt;strong&gt;summingInt&lt;/strong&gt; (Collectors)&lt;/p&gt;&lt;pre&gt;Integer summingInt = stream.get()&lt;br /&gt;    .collect(Collectors.&lt;em&gt;summingInt&lt;/em&gt;(String::length));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, summingInt.intValue());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;sumOfInt&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;long sumOfInt = list.sumOfInt(String::length);&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumOfInt);&lt;/pre&gt;&lt;p&gt;I think in these examples, sumOfInt is the simplest solution.&lt;/p&gt;&lt;h4&gt;Summing the lengths of Strings grouped by the first character&lt;/h4&gt;&lt;p&gt;In this problem we will group Strings by their first character and sum the length of the Strings for each character. I will prefer to use use primitive maps here for the grouping if possible.&lt;/p&gt;&lt;p&gt;Here is the data.&lt;/p&gt;&lt;pre&gt;String[] words = {&lt;strong&gt;&quot;The&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;};&lt;br /&gt;&lt;br /&gt;Supplier&amp;lt;Stream&amp;lt;String&amp;gt;&amp;gt; stream = &lt;br /&gt;    () -&amp;gt; Stream.&lt;em&gt;of&lt;/em&gt;(&lt;em&gt;words&lt;/em&gt;).map(String::toLowerCase);&lt;/pre&gt;&lt;pre&gt;ImmutableList&amp;lt;String&amp;gt; list =&lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(words).collect(String::toLowerCase);&lt;/pre&gt;&lt;p&gt;The Stream and ImmutableList strings are converted to lowercase using map and collect, respectively. We will do this manually in the for loop example.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt; &lt;strong&gt;Loop&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;MutableCharIntMap sumByForLoop = new CharIntHashMap();&lt;br /&gt;for (int &lt;strong&gt;i &lt;/strong&gt;= 0; &lt;strong&gt;i &lt;/strong&gt;&amp;lt; words.length; &lt;strong&gt;i&lt;/strong&gt;++)&lt;br /&gt;{&lt;br /&gt;    String word = words[&lt;strong&gt;i&lt;/strong&gt;].toLowerCase();&lt;br /&gt;    sumByForLoop.addToValue(word.charAt(0), word.length());&lt;br /&gt;}&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByForLoop.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByForLoop.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;for&lt;/strong&gt; &lt;strong&gt;Each&lt;/strong&gt; (Stream) / &lt;strong&gt;each&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;MutableCharIntMap sumByForEach = new CharIntHashMap();&lt;br /&gt;stream.get().forEach(&lt;br /&gt;    e -&amp;gt; &lt;em&gt;sumByForEach&lt;/em&gt;.addToValue(e.charAt(0), e.length()));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByForEach.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByForEach.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;MutableCharIntMap sumByEach = new CharIntHashMap();&lt;br /&gt;list.each(&lt;br /&gt;    e -&amp;gt; &lt;em&gt;sumByEach&lt;/em&gt;.addToValue(e.charAt(0), e.length()));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByEach.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByEach.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;injectInto&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;MutableCharIntMap sumByInject =&lt;br /&gt;        list.injectInto(&lt;br /&gt;                new CharIntHashMap(),&lt;br /&gt;                (map, each) -&amp;gt; {&lt;br /&gt;                    map.addToValue(each.charAt(0), each.length());&lt;br /&gt;                    return map;&lt;br /&gt;                });&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByInject.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByInject.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;reduce&lt;/strong&gt; (Stream)&lt;/p&gt;&lt;pre&gt;MutableCharIntMap sumByReduce = stream.get()&lt;br /&gt;        .reduce(&lt;br /&gt;                new CharIntHashMap(),&lt;br /&gt;                (map, e) -&amp;gt; {&lt;br /&gt;                    map.addToValue(e.charAt(0), e.length());&lt;br /&gt;                    return map;&lt;br /&gt;                },&lt;br /&gt;                (map1, map2) -&amp;gt; {&lt;br /&gt;                    map1.putAll(map2);&lt;br /&gt;                    return map1;&lt;br /&gt;                });&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByReduce.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByReduce.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;aggregateBy&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;ImmutableMap&amp;lt;Character, Long&amp;gt; aggregateBy = list.aggregateBy(&lt;br /&gt;        word -&amp;gt; word.charAt(0),&lt;br /&gt;        () -&amp;gt; new Long(0),&lt;br /&gt;        (sum, each) -&amp;gt; sum + each.length());&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35,&lt;br /&gt;    aggregateBy.valuesView().sumOfLong(Long::longValue));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, aggregateBy.get(&lt;strong&gt;'t'&lt;/strong&gt;).longValue());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;aggregateInPlaceBy&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;ImmutableMap&amp;lt;Character, LongAdder&amp;gt; aggregateInPlaceBy = &lt;br /&gt;        list.aggregateInPlaceBy(&lt;br /&gt;                word -&amp;gt; word.charAt(0),&lt;br /&gt;                LongAdder::new,&lt;br /&gt;                (adder, each) -&amp;gt; adder.add(each.length()));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35,&lt;br /&gt;    aggregateInPlaceBy.valuesView()&lt;br /&gt;        .sumOfLong(LongAdder::longValue));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, aggregateInPlaceBy.get(&lt;strong&gt;'t'&lt;/strong&gt;).longValue());&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (Stream)&lt;/p&gt;&lt;pre&gt;MutableCharIntMap sumByCollect = stream.get().collect(&lt;br /&gt;        CharIntHashMap::new,&lt;br /&gt;        (map, e) -&amp;gt; map.addToValue(e.charAt(0), e.length()),&lt;br /&gt;        CharIntHashMap::putAll);&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByCollect.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByCollect.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (Stream) + &lt;strong&gt;groupingBy&lt;/strong&gt; (Collectors) + &lt;strong&gt;summingInt&lt;/strong&gt; (Collectors)&lt;/p&gt;&lt;pre&gt;Map&amp;lt;Character, Integer&amp;gt; sumByCollectSummingInt =&lt;br /&gt;        stream.get()&lt;br /&gt;                .collect(Collectors.&lt;em&gt;groupingBy&lt;/em&gt;(&lt;br /&gt;                        word -&amp;gt; word.charAt(0),&lt;br /&gt;                        Collectors.&lt;em&gt;summingInt&lt;/em&gt;(String::length)));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;    35,&lt;br /&gt;    sumByCollectSummingInt&lt;br /&gt;        .values().stream().mapToInt(Integer::intValue).sum());&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;    Integer.&lt;em&gt;valueO&lt;/em&gt;(6), sumByCollectSummingInt.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;collect&lt;/strong&gt; (Stream) + &lt;strong&gt;sumByInt&lt;/strong&gt; (Collectors2)&lt;/p&gt;&lt;pre&gt;ObjectLongMap&amp;lt;Character&amp;gt; sumByCollectors2 =&lt;br /&gt;        stream.get().collect(&lt;br /&gt;                Collectors2.&lt;em&gt;sumByInt&lt;/em&gt;(&lt;br /&gt;                    word -&amp;gt; word.charAt(0), String::length));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByCollectors2.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByCollectors2.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;reduceInPlace&lt;/strong&gt; (ImmutableList)+ &lt;strong&gt;sumByInt &lt;/strong&gt;(Collectors2)&lt;/p&gt;&lt;pre&gt;ObjectLongMap&amp;lt;Character&amp;gt; reduceInPlaceCollectors2 =&lt;br /&gt;        list.reduceInPlace(&lt;br /&gt;                Collectors2.&lt;em&gt;sumByInt&lt;/em&gt;(&lt;br /&gt;                    e -&amp;gt; e.charAt(0), String::length));&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, reduceInPlaceCollectors2.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, reduceInPlaceCollectors2.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;sumByInt&lt;/strong&gt; (ImmutableList)&lt;/p&gt;&lt;pre&gt;ObjectLongMap&amp;lt;Character&amp;gt; sumByInt =&lt;br /&gt;        list.sumByInt(e -&amp;gt; e.charAt(0), String::length);&lt;/pre&gt;&lt;pre&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(35, sumByInt.values().sum());&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(6, sumByInt.get(&lt;strong&gt;'t'&lt;/strong&gt;));&lt;/pre&gt;&lt;p&gt;The simplest solution here is sumByInt.&lt;/p&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;&lt;p&gt;We’ve covered a lot of different approaches you can use to sum or summarize values using Java and Eclipse Collections. In the case of summing, using a method with sum in the name will probably give you the simplest solution. You can solve almost any problem using methods like injectInto and reduceInPlace (Eclipse Collections) or collect (Java Stream). Methods like reduce are less useful when your result needs to be different than your input. Methods like aggregateBy and aggregateInPlaceBy give you a more specific result than collect because they always return a Map. Using Collectors2 can be helpful if you want to iterate over a Stream and get a primitive map result easily using collect.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=d46dfd334704&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 02 Feb 2018 02:46:27 +0000</pubDate>
+</item>
+<item>
+	<title>Geniutec: Eclipse — Still the Best IDE!</title>
+	<guid isPermaLink="false">https://www.genuitec.com/?p=548306</guid>
+	<link>https://www.genuitec.com/eclipse-still-best-ide/</link>
+	<description>&lt;p&gt;As a developer, you’ve probably grown to love using an IDE — but in the modern coding universe of choices, how do you choose the best IDE? While some might try to convince you that the “cool kids” are using IntelliJ, whether you’re looking for your first IDE, or being pressured into switching, here are some reasons […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/eclipse-still-best-ide/&quot; rel=&quot;nofollow&quot;&gt;Eclipse — Still the Best IDE!&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 31 Jan 2018 07:07:38 +0000</pubDate>
 </item>
 
 </channel>

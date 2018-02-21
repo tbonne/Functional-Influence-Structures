@@ -33,7 +33,7 @@ import repast.simphony.space.gis.GeographyParameters;
 import tools.NetworkUtils;
 import tools.SimUtils;
 
-//This file builds the model: creating the environment and populating it with primates
+//This file builds the model: creating the environment and populating it with agents
 public class ModelSetup implements ContextBuilder<Object>{
 
 	private static Context mainContext;
@@ -77,9 +77,9 @@ public class ModelSetup implements ContextBuilder<Object>{
 		mainContext = context; //static link to context
 		timeRecord = System.currentTimeMillis();
 		timeRecord_start = System.currentTimeMillis();
-		
+
 		//get parameters from csv file
-		resetP();
+		if(parameter.getParamsCSV)resetP();
 
 		/****************************
 		 * 							*
@@ -115,106 +115,289 @@ public class ModelSetup implements ContextBuilder<Object>{
 			allCells.add(cell);
 		}
 
-
-		//add Resources to the environment (high density path)
-		/*		Uniform xDist2 = RandomHelper.createUniform(xdim/2, xdim);
-		cern.jet.random.Normal err = RandomHelper.createNormal(0, 10);
-		for(int i=0;i<Parameter.foodDensity*xdim*ydim;i++){
-			double xSample = xDist2.nextDouble();
-			double ySample = ydim+1;
-			while (ySample > ydim || ySample < 0){
-				//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
-				ySample = Math.pow( (xSample-xdim/2.0), 0.25) ;
-				ySample = ySample / Math.pow(xdim/2,0.25)          ;
-				ySample = ySample * ydim ;
-			}
-
-			Cell cell = new Cell(context,xSample+ err.nextDouble(),ySample+ err.nextDouble(),beta.nextDouble(),count++);
+		//increase area of the foraging trail (create 200m buffer around original surface) 
+		System.out.println("adding more resources to the environment");
+		Uniform xDist_buff_top = RandomHelper.createUniform(0, xdim+200); //top buffer area
+		Uniform yDist_buff_top = RandomHelper.createUniform(ydim, ydim+200);
+		for(int i=0;i<Parameter.foodDensity*(xdim+200)*200;i++){
+			Cell cell = new Cell(context,xDist_buff_top.nextDouble(),yDist_buff_top.nextDouble(),beta.nextDouble(),count++);
 			sitesAdded++;
 			allCells.add(cell);
 		}
-		 */
-		
-		
-		//add Resources to the environment (high density path)
-		Uniform yDist2 = RandomHelper.createUniform(0, ydim);
-		
+		Uniform xDist_buff_right = RandomHelper.createUniform(xdim, xdim+200); //right buffer area
+		Uniform yDist_buff_right = RandomHelper.createUniform(0,ydim);
+		for(int i=0;i<Parameter.foodDensity*200*ydim;i++){
+			Cell cell = new Cell(context,xDist_buff_right.nextDouble(),yDist_buff_right.nextDouble(),beta.nextDouble(),count++);
+			sitesAdded++;
+			allCells.add(cell);
+		}
+		Uniform xDist_buff_bottom = RandomHelper.createUniform(0, xdim+200); //bottom buffer area
+		Uniform yDist_buff_bottom = RandomHelper.createUniform(0,-200);
+		for(int i=0;i<Parameter.foodDensity*(xdim+200)*200;i++){
+			Cell cell = new Cell(context,xDist_buff_bottom.nextDouble(),yDist_buff_bottom.nextDouble(),beta.nextDouble(),count++);
+			sitesAdded++;
+			allCells.add(cell);
+		}
+
+
+		//Add high density paths to the environment ****************************************
+
 		if(Parameter.addPath == 1){
-		cern.jet.random.Normal err = RandomHelper.createNormal(0, 10);
-		for(int i=0;i<Parameter.foodDensity*xdim*ydim/4;i++){
-			double ySample = yDist2.nextDouble();
-			double xSample = xdim+1;
-			while (xSample > xdim || xSample < 0){
-				//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
-				xSample = Math.pow( ySample, 0.25) ;
-				xSample = xSample / Math.pow(ydim,0.25);
-				xSample = xSample * xdim ;
-			}
 
-			Cell cell = new Cell(context,xSample+ err.nextDouble(),ySample+ err.nextDouble(),beta.nextDouble(),count++);
-			sitesAdded++;
-			allCells.add(cell);
-		}
-		}
-		//add marker points with no error (act as line string for distance calculations)
-		for(int i=0;i<Parameter.foodDensity*xdim*ydim/4;i++){
-			double ySample = yDist2.nextDouble();
-			double xSample = xdim+1;
-			while (xSample > xdim || xSample < 0){
-				//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
-				xSample = Math.pow( ySample, 0.25) ;
-				xSample = xSample / Math.pow(ydim,0.25);
-				xSample = xSample * xdim ;
-			}
+			//add Resources to the environment (high density path)
+			Uniform yDist2 = RandomHelper.createUniform(0, ydim);
 
-			markerPoint mp = new markerPoint(context,xSample,ySample);
-			pathCells.add(mp);
-		}
-
-
-		/*
-		//adding hexagon grid cells
-		Beta beta = new Beta(Parameter.envHomogen,Parameter.envHomogen, Parameter.mt);
-		double xcoord=0,ycoord=0;
-		int offset=0,count=0;
-
-		for (int i = 0; i < ydim; ++i) {
-			for (int j = 0; j < xdim; ++j) {
-
-				//double food = 0;
-				double food = beta.nextDouble();
-				Cell cell=null;
-
-				if(offset==0){
-					xcoord=xcoord+(Parameter.cellSize/2.0)*Math.cos(2*Math.PI/3.0);
-					offset=1;
-					cell = new Cell(context,xcoord,ycoord,food,count++);
-					xcoord=xcoord-(Parameter.cellSize/2.0);
-				}else if (offset==1){
-					xcoord=xcoord-(Parameter.cellSize/2.0)*Math.cos(2*Math.PI/3.0);
-					ycoord=ycoord+(Parameter.cellSize/2.0)*Math.sin(2*Math.PI/3.0);
-					offset=0;
-					cell = new Cell(context,xcoord,ycoord,food,count++);
-					ycoord=ycoord-(Parameter.cellSize/2.0)*Math.sin(2*Math.PI/3.0);
+			cern.jet.random.Normal err = RandomHelper.createNormal(0, Parameter.pathWidth);
+			for(int i=0;i<Parameter.pathFood*xdim*ydim;i++){
+				double ySample = yDist2.nextDouble();
+				double xSample = xdim+1;
+				while (xSample > xdim || xSample < 0){
+					xSample = Math.pow( ySample, 0.25) ;
+					xSample = xSample / Math.pow(ydim,0.25);
+					xSample = xSample * xdim ;
 				}
 
-				resAdded=resAdded+food;
+				Cell cell = new Cell(context,xSample+ err.nextDouble(),ySample+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
 				allCells.add(cell);
-
-				//shift ycoord by cell size value
-				xcoord=xcoord+Parameter.cellSize;
 			}
 
-			//Set ycoord back to the start and shift xcoord up by cell size value
-			xcoord=0;
-			ycoord = ycoord-(Parameter.cellSize)*Math.sin(2*Math.PI/3.0);
-		}
-		 */
+			//add marker points with no error (act as line string for distance calculations)
+			System.out.println("adding marker points to the environment"); 
+			for(int i=0;i<ydim;i++){
+				double ySample = i;//yDist2.nextDouble();
+				double xSample = xdim+1;
+				while (xSample > xdim || xSample < 0){
+					//ySample = -1*Math.pow((xSample-xdim/2)/2,2)+ydim/2+err.nextDouble();
+					xSample = Math.pow( ySample, 0.25);
+					xSample = xSample / Math.pow(ydim,0.25);
+					xSample = xSample * xdim ;
+				}
 
-		//to simplify the model all cells record the visible neighbours (within visible range for a primate)
-		for (Cell c: allCells){
-			c.setVisibleNeigh();
+				markerPoint mp = new markerPoint(context,xSample,ySample);
+				pathCells.add(mp);
+			}
+
+		} else if (Parameter.addPath==2){
+			
+			//path length
+			double pathLength = ydim/(2*2);
+			
+			cern.jet.random.Normal err = RandomHelper.createNormal(0, Parameter.pathWidth);
+			cern.jet.random.Uniform whichPath = RandomHelper.createUniform(1,2);
+			cern.jet.random.Uniform wherePath = RandomHelper.createUniform(0,pathLength);
+			for(int i=0;i<Parameter.pathFood*xdim*ydim;i++){
+				
+				//choose random path to add food to
+				if(Math.round(whichPath.nextDouble())==1){
+					
+					double xpos = 1000 + wherePath.nextDouble();
+					double ypos = 1*xpos - 750;
+					
+					Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+					sitesAdded++;
+					allCells.add(cell);
+					markerPoint mp = new markerPoint(context,xpos,ypos);
+					pathCells.add(mp);
+					
+				} else {
+					
+					double xpos = 500 + wherePath.nextDouble();
+					double ypos = 1*xpos + 250;
+					
+					Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+					sitesAdded++;
+					allCells.add(cell);
+					markerPoint mp = new markerPoint(context,xpos,ypos);
+					pathCells.add(mp);
+				}
+				
+			} 
+		} else if (Parameter.addPath==4){
+			
+			//path length
+			double pathLength = ydim/(4*2);
+			
+			//food per path
+			double pathFood = Parameter.pathFood*xdim*ydim/4;
+			
+			cern.jet.random.Normal err = RandomHelper.createNormal(0, Parameter.pathWidth);
+			cern.jet.random.Uniform wherePath = RandomHelper.createUniform(0,pathLength);
+			
+			//Path 1
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1000 + wherePath.nextDouble();
+				double ypos = 1*xpos - 750;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 2
+			for(int i=0;i<pathFood;i++){
+				double xpos = 500 + wherePath.nextDouble();
+				double ypos = 1*xpos + 250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 3
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1500 + wherePath.nextDouble();
+				double ypos = 1*xpos - 250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 4
+			for(int i=0;i<pathFood;i++){
+				double xpos = 250 + wherePath.nextDouble();
+				double ypos = 1*xpos + 1250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+		} else if (Parameter.addPath==8){
+			
+			//path length
+			double pathLength = ydim/(8*2);
+			
+			//food per path
+			double pathFood = Parameter.pathFood*xdim*ydim/8;
+			
+			cern.jet.random.Normal err = RandomHelper.createNormal(0, Parameter.pathWidth);
+			cern.jet.random.Uniform wherePath = RandomHelper.createUniform(0,pathLength);
+			
+			//Path 1
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1000 + wherePath.nextDouble();
+				double ypos = 1*xpos - 750;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 2
+			for(int i=0;i<pathFood;i++){
+				double xpos = 500 + wherePath.nextDouble();
+				double ypos = 1*xpos + 250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 3
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1500 + wherePath.nextDouble();
+				double ypos = 1*xpos - 250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 4
+			for(int i=0;i<pathFood;i++){
+				double xpos = 250 + wherePath.nextDouble();
+				double ypos = 1*xpos + 1250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 5
+			for(int i=0;i<pathFood;i++){
+				double xpos = 250 + wherePath.nextDouble();
+				double ypos = 1*xpos - 250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 6
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1000 + wherePath.nextDouble();
+				double ypos = 1*xpos + 750;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 7
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1750 + wherePath.nextDouble();
+				double ypos = 1*xpos - 1250;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+			
+			//Path 8
+			for(int i=0;i<pathFood;i++){
+				double xpos = 1000 + wherePath.nextDouble();
+				double ypos = 1*xpos + 0;
+				
+				Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+				sitesAdded++;
+				allCells.add(cell);
+				markerPoint mp = new markerPoint(context,xpos,ypos);
+				pathCells.add(mp);
+			}
+		} else if (Parameter.addPath==10){
+			
+			//path length
+			double pathLength = ydim/(1*2);
+			
+			cern.jet.random.Normal err = RandomHelper.createNormal(0, Parameter.pathWidth);
+			cern.jet.random.Uniform wherePath = RandomHelper.createUniform(0,pathLength);
+			for(int i=0;i<Parameter.pathFood*xdim*ydim;i++){
+				
+					double xpos = 1000 + wherePath.nextDouble();
+					double ypos = 1*xpos-750;
+					
+					Cell cell = new Cell(context,xpos+ err.nextDouble(),ypos+ err.nextDouble(),beta.nextDouble(),count++);
+					sitesAdded++;
+					allCells.add(cell);
+					markerPoint mp = new markerPoint(context,xpos,ypos);
+					pathCells.add(mp);
+				
+			} 
 		}
+		
 
 		/************************************
 		 * 							        *
@@ -223,13 +406,12 @@ public class ModelSetup implements ContextBuilder<Object>{
 		 * *********************************/
 
 		//keep track of groups being added
+		System.out.println("adding agents to the environment");
 		ArrayList<Primate> group = new ArrayList<Primate>();
 
 		//center of group (fixed)
-		double xCenter =xdim/2;//*Parameter.cellSize/3;//0;//xDist.nextDouble();//75;//1000;// 75;
-		double yCenter =0;//0;//yDist.nextDouble();// -75;//-1000;//-75;
-		//double yoffset = 10;
-		//double xoffset = 0;
+		double xCenter =xdim/2;
+		double yCenter =0;
 
 
 		//select the number of primates in this group (fixed)
@@ -328,7 +510,7 @@ public class ModelSetup implements ContextBuilder<Object>{
 		ScheduleParameters agentStepParams = ScheduleParameters.createRepeating(1, 1, 2);
 		schedule.schedule(agentStepParams,executor,"envUpdate");
 	}
-	
+
 	private static void resetP(){
 
 		String csvFile = Parameter.parameters_csv;
@@ -353,11 +535,13 @@ public class ModelSetup implements ContextBuilder<Object>{
 		Parameter.groupSize = Integer.parseInt(params_new[1]);
 		Parameter.influenceType = Integer.parseInt(params_new[2]);
 		Parameter.corePer = Double.parseDouble(params_new[3]);
-		Parameter.stepsPerDay = Double.parseDouble(params_new[4]);
-		
+		Parameter.pathWidth = Integer.parseInt(params_new[4]);
+		Parameter.pathFood = Double.parseDouble(params_new[5]);
+		Parameter.stepsPerDay = Double.parseDouble(params_new[6]);
+
 
 	}
-	
+
 
 
 	//used to update only the cells which have been modified, or are growing back

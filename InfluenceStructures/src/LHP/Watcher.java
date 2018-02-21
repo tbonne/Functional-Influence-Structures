@@ -69,16 +69,10 @@ public class Watcher {
 
 		//creating a file to store the output of the counts
 		try {
-			//locations = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/Primate_locations"+Parameter.decisionMaking+"_"+Parameter.associationSize+".csv",false));
 			summaryStats_out = new BufferedWriter(new FileWriter("data/summary_stats.csv",true));
-			//individualMovements_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/movement_stats.csv",false));
-			//foodQuant_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/food_quant.csv",false));
-			//foodPos_out = new BufferedWriter(new FileWriter("C:/Users/t-work/Dropbox/Projects_with_LouisePeter/Project_Babbon_group_cordination_models_(specificFocus)/Project_simple_to_complex_models_min_requirments/runingABM/food_pos.csv",false));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		//logNDist = new LogNormalDistribution(scale,shape);
 	}
 
 
@@ -93,34 +87,18 @@ public class Watcher {
 
 		//	to do every tick
 
-		//countSteps=countSteps+1;
-		//if(revisit==null)revisit=Math.round(logNDist.sample()); can't down-sample this way as it assumes that all positions are recorded at the same time... no interpolation error introduced.
-		//if(countSteps==revisit){
-		//recordIndividualPositions();
-		//recordFood();
-		//	revisit=null;
-		//	countSteps=0;
-		//}
+		
 
 		//	to do every minute
 		if(RunEnvironment.getInstance().getCurrentSchedule().getTickCount()%(Parameter.recordingFreq)==0){
 
 			getDistanceFromPath();
 			getForagingEfficiency();
-			//Coordinate groupCenter = calculateGroupCenter();
-			//centers.add(groupCenter);
-			//speeds.add(calculateSpeed(groupCenter));
-			//spreads.add(calculateSpread(groupCenter));
-			//ratio.add(calculateLegthWidthRatio());
-			//perpen.add(this.calculateDiffAngle(this.getDirectionOfTravel().getEntry(1)/this.getDirectionOfTravel().getEntry(0), this.calculateSlopeOfEllipse().getEntry(1)/this.calculateSlopeOfEllipse().getEntry(0)));
-			//shapeRatio.add(this.calculateShape(Math.atan2(this.calculateSlopeOfEllipse().getEntry(1), this.calculateSlopeOfEllipse().getEntry(0))));
-			//System.out.println("step");
+			
 		}
 
 		//	to do every 1000 steps
 		if(RunEnvironment.getInstance().getCurrentSchedule().getTickCount()%(1000)==0){
-			//System.out.println("End of hour "+ hour);
-			//System.out.println(" ");
 			//hour++;
 		}
 
@@ -129,14 +107,9 @@ public class Watcher {
 			executor.shutdown();
 			RunEnvironment.getInstance().endAt(this.runEnvironment.getCurrentSchedule().getTickCount());
 			recordSummaryStats();
-			//	recordIndPosisions();
-			//	recordFoodPo();
-			//	recordFood_txt();
-			//	closeBufferWiter();
-			//	closeBufferWiter2();
-			//	printSocialCounts();
-			System.out.println("End of day");
-			//exportLandscape();
+			
+			System.out.println("End of Sim");
+			
 		}
 	}
 
@@ -337,6 +310,10 @@ public class Watcher {
 			summaryStats_out.append(((Integer)Parameter.addPath).toString());
 			summaryStats_out.append(",");
 			summaryStats_out.append(((Double)Parameter.corePer).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Double)Parameter.pathFood).toString());
+			summaryStats_out.append(",");
+			summaryStats_out.append(((Integer)Parameter.pathWidth).toString());
 			summaryStats_out.append(",");
 			summaryStats_out.append(((Double)Parameter.stepsPerDay).toString());
 			summaryStats_out.append(",");

@@ -16,7 +16,7 @@ public class Parameter {
 	public static int numbOfThreads = 8;				//multipule of # of cores (e.g. 8 * 2 = 16)
 	public static boolean groupProcess = false;			//sub-groups of agents processed separately, or all agents passed through each separate process
 	public static MersenneTwister64 mt = new MersenneTwister64();	// random number generator
-	public static boolean getParamsCSV = false; 		//Whether to get the parameters from a csv updated through R.
+	public static boolean getParamsCSV = true; 		//Whether to get the parameters from a csv updated through R.
 	public static String parameters_csv = "data/params.csv"; //the parameter file
 	
 	//Watcher agent (for observations)
@@ -27,7 +27,7 @@ public class Parameter {
 	//Primate: population
 	public static int groupSize = 10;						//number of individuals in a group
 	public static int maxInitialGroupDistance = 100;        //radius of the initial group (m) (starting conditions)
-	public static int influenceType = 1;					//type of influence structure in the group: 1 = leader led, 2 = core/periphery, 3 = random
+	public static int influenceType = 2;					//type of influence structure in the group: 1 = leader led, 2 = core/periphery, 3 = random
 	public static double corePer = 0.1;						//percentage of individuals in the core
 	
 	//Primate: movement
@@ -43,6 +43,8 @@ public class Parameter {
 	public static int landscapeWidth = 2000;	     		//width and length of the landscape meters 
 	public static int landscapeHeight = 2000;	    		//width and length of the landscape meters 
 	public static int addPath = 0;					 		//Whether to add the high density path to the environment (0: don't, 1: add the path)
+	public static int pathWidth = 10;						//width of the path
+	public static double pathFood = 0.0025;					//amount of food on path
 	
 	//Food patch
 	public static double envHomogen = 1;					//beta parameters (a=b>0): value of 1 = uniform distribution, value of 2 = centered on 0.5 tails reduced, values >2 = increasingly centered on 0.5 --> homogenous distribution
@@ -56,24 +58,5 @@ public class Parameter {
 		
 		randomSeed = (Integer)p.getValue("randomSeed");
 
-		//landscape
-		//visual_range = (Double)p.getValue("visual_range");//
-		//attractionWeight = (Double)p.getValue("attractionWeight");//
-		//repulsionWeight = (Double)p.getValue("repulsionWeight");//
-		//bearingWeight = (Double)p.getValue("bearingWeight");//
-		//foodWeight = (Double)p.getValue("foodWeight");//
-		//attractionDistMax = (Double)p.getValue("attractionDistMax");//
-		//repulsionDistMax = (Double)p.getValue("repulsionDistMax");//
-		//landscapeWidth = (Integer)p.getValue("landscapeWidth"); //
-		//landscapeHeight = (Integer)p.getValue("landscapeHeight");//
-		//groupSize = (Integer)p.getValue("groupSize");//
-		//foodBuffer = (Double)p.getValue("foodBuffer"); //
-		//foodDensity = (Double)p.getValue("foodDensity"); //
-		//biteSize = (Double)p.getValue("biteSize"); //
-		
 	}
-	
-	//public static double foodAvoidanceDistance = 10;		//radius in which food is not selected for when a stranger is nearby (m)
-		//public final static double maxDistancePerStep = 0.5; 	//distance (meter) that an individual can travel within one time-step (1sec)
-		//public final static double bodyRadius = 4; 				//this is the physical space taken up by an agent (meters)
 }

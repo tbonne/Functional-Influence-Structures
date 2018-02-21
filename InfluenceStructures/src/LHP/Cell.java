@@ -34,6 +34,7 @@ public class Cell {
 	//visit counts
 	double visit=0;
 	int id;
+	int occupied;
 	
 	//movement influence
 	ArrayList<Cell> visibleSites;
@@ -43,6 +44,7 @@ public class Cell {
 		
 		//set initial variables
 		id=i;
+		occupied=-1;
 		resources = r;
 		maxResources = resources; //maintains initial conditions
 		con.add(this);
@@ -62,26 +64,6 @@ public class Cell {
 			familiarity.add(0.001);
 		}
 	}
-	
-	/*private Geometry getHexShape(double x, double y){
-
-		GeometryFactory fac = new GeometryFactory();
-		Geometry shape = null;
-		Coordinate[] boundingCoords = new Coordinate[7];
-		for(int i=0; i<7; i++) {
-			if(i!=6){
-				Coordinate c = new Coordinate(x + (Parameter.cellSize/(2.0))*Math.cos(i*2*Math.PI/6), y + (Parameter.cellSize/(2.0))*Math.sin(i*2*Math.PI/6));
-				boundingCoords[i]=c;
-			} else{
-				Coordinate c = new Coordinate(x + (Parameter.cellSize/(2.0))*Math.cos(0*2*Math.PI/6), y + (Parameter.cellSize/(2.0))*Math.sin(0*2*Math.PI/6));
-				boundingCoords[i]=c;
-			}
-		}
-		LinearRing ring = fac.createLinearRing(boundingCoords);
-		shape = fac.createPolygon(ring, null);
-
-		return shape;
-	}*/
 	
 	private Geometry getCircle(double x, double y){
 		
@@ -153,10 +135,6 @@ public class Cell {
 			setResourceLevel(0);
 		}
 		
-		//biteSize = this.getResourceLevel();
-		//setResourceLevel(0);
-		
-		ModelSetup.addToCellUpdateList(this);
 		timeCounter=0;
 		return biteSize;
 	}
@@ -183,5 +161,12 @@ public class Cell {
 	}
 	public int getID(){
 		return id;
+	}
+
+	public void setOccupied(int i) {
+		occupied = i;
+	}
+	public int getOccupied(){
+		return occupied;
 	}
 }
